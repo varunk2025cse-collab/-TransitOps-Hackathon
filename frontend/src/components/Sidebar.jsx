@@ -18,7 +18,7 @@ const navItems = [
   { to: '/drivers', label: 'Drivers', icon: HiOutlineUserGroup },
   { to: '/dispatch', label: 'Dispatch', icon: HiOutlineLocationMarker },
   { to: '/trips', label: 'Trips', icon: HiOutlineClipboardList },
-  { to: '/maintenance', label: 'Maintenance', icon: HiOutlineWrench },
+  { to: '/maintenance', label: 'Maintenance', icon: HiOutlineCog },
   { to: '/fuel-logs', label: 'Fuel Logs', icon: HiOutlineBeaker },
   { to: '/expenses', label: 'Expenses', icon: HiOutlineCurrencyDollar },
 ];
