@@ -1,0 +1,13 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_transitops_vehicle_manager,transitops.vehicle.manager,model_transitops_vehicle,group_transitops_manager,1,1,1,1
+access_transitops_vehicle_driver,transitops.vehicle.driver,model_transitops_vehicle,group_transitops_driver,1,0,0,0
+access_transitops_driver_manager,transitops.driver.manager,model_transitops_driver,group_transitops_manager,1,1,1,1
+access_transitops_driver_driver,transitops.driver.driver,model_transitops_driver,group_transitops_driver,1,0,0,0
+access_transitops_trip_manager,transitops.trip.manager,model_transitops_trip,group_transitops_manager,1,1,1,1
+access_transitops_trip_driver,transitops.trip.driver,model_transitops_trip,group_transitops_driver,1,1,0,0
+access_transitops_maintenance_manager,transitops.maintenance.manager,model_transitops_maintenance,group_transitops_manager,1,1,1,1
+access_transitops_maintenance_driver,transitops.maintenance.driver,model_transitops_maintenance,group_transitops_driver,1,0,0,0
+access_transitops_fuel_log_manager,transitops.fuel.log.manager,model_transitops_fuel_log,group_transitops_manager,1,1,1,1
+access_transitops_fuel_log_driver,transitops.fuel.log.driver,model_transitops_fuel_log,group_transitops_driver,1,1,1,0
+access_transitops_expense_manager,transitops.expense.manager,model_transitops_expense,group_transitops_manager,1,1,1,1
+access_transitops_expense_driver,transitops.expense.driver,model_transitops_expense,group_transitops_driver,1,0,0,0
