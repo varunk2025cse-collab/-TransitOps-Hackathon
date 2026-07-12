@@ -1034,3 +1034,1069 @@ psycopg2.InterfaceError: cursor already closed
 2026-07-12 09:15:34,697 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
 2026-07-12 09:16:25,549 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
 2026-07-12 09:16:35,719 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:17:25,553 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:17:36,732 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:18:25,567 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:18:37,744 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:19:25,582 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:19:38,766 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:20:25,587 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:20:39,790 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:21:25,595 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:21:40,205 18228 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:21:40] "GET / HTTP/1.1" 303 - 2 0.010 0.255
+2026-07-12 09:21:40,806 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:21:42,363 18228 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:21:42] "GET /web HTTP/1.1" 303 - 2 0.008 0.117
+2026-07-12 09:21:44,806 18228 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:21:44] "GET /web/login HTTP/1.1" 200 - 5 0.017 0.376
+2026-07-12 09:21:46,982 18228 INFO transitops odoo.http: Session expired 
+2026-07-12 09:21:46,983 18228 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:21:46] "OPTIONS /api/v1/vehicles HTTP/1.1" 303 - 2 0.008 0.118
+2026-07-12 09:21:49,321 18228 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:21:49] "GET /web/login?redirect=/api/v1/vehicles? HTTP/1.1" 200 - 5 0.016 0.262
+2026-07-12 09:21:52,468 18228 INFO transitops odoo.addons.base.models.res_users: Login successful for db:transitops login:admin from 127.0.0.1 
+2026-07-12 09:21:52,524 18228 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:21:52] "POST /api/v1/auth/login HTTP/1.1" 200 - 26 0.076 1.100
+2026-07-12 09:21:52,681 38068 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-07-12 09:21:52,963 38068 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2026-07-12 09:21:53,272 38068 INFO ? odoo.modules.loading: 1 modules loaded in 0.59s, 0 queries (+0 extra) 
+2026-07-12 09:21:53,311 38068 INFO ? odoo.modules.loading: loading 24 modules... 
+2026-07-12 09:21:53,791 38068 INFO ? odoo.modules.loading: 24 modules loaded in 0.48s, 0 queries (+0 extra) 
+2026-07-12 09:21:53,862 38068 INFO ? odoo.modules.loading: Modules loaded. 
+2026-07-12 09:21:53,869 38068 INFO ? odoo.modules.registry: Registry loaded in 1.343s 
+2026-07-12 09:22:25,601 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:22:41,822 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:23:25,614 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:23:42,840 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:24:16,635 18228 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:24:16] "GET / HTTP/1.1" 303 - 2 0.006 0.255
+2026-07-12 09:24:18,809 18228 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:24:18] "GET /web HTTP/1.1" 303 - 2 0.008 0.126
+2026-07-12 09:24:21,150 18228 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:24:21] "GET /web/login HTTP/1.1" 200 - 5 0.021 0.253
+2026-07-12 09:24:24,330 18228 INFO transitops odoo.addons.base.models.res_users: Login successful for db:transitops login:admin from 127.0.0.1 
+2026-07-12 09:24:24,353 18228 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:24:24] "POST /api/v1/auth/login HTTP/1.1" 200 - 15 0.020 1.151
+2026-07-12 09:24:25,630 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:24:26,403 18228 ERROR transitops odoo.addons.transitops_core.controllers.api: Create vehicle error 
+Traceback (most recent call last):
+  File "c:\users\lenovo\onedrive\desktop\transitops\backend\transitops_core\controllers\api.py", line 121, in create_vehicle
+    data = json.loads(request.httprequest.data)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2026-07-12 09:24:26,441 18228 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:24:26] "OPTIONS /api/v1/vehicles HTTP/1.1" 500 - 1 0.001 0.042
+2026-07-12 09:24:43,855 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:24:47,977 18228 INFO transitops odoo.http: Session expired 
+2026-07-12 09:24:47,978 18228 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:24:47] "OPTIONS /api/v1/vehicles HTTP/1.1" 303 - 2 0.009 0.194
+2026-07-12 09:24:48,187 18228 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:24:48] "GET /web/login?redirect=/api/v1/vehicles? HTTP/1.1" 200 - 5 0.012 0.157
+2026-07-12 09:25:25,647 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:25:44,874 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:26:25,654 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:26:45,890 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:27:25,667 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:27:46,903 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:28:25,672 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:28:27,009 18228 INFO transitops odoo.http: Session expired 
+2026-07-12 09:28:27,009 18228 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:28:27] "OPTIONS /api/v1/vehicles HTTP/1.1" 303 - 2 0.005 0.193
+2026-07-12 09:28:29,287 18228 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:28:29] "GET /web/login?redirect=/api/v1/vehicles? HTTP/1.1" 200 - 5 0.017 0.214
+2026-07-12 09:28:31,455 18228 INFO transitops odoo.http: Session expired 
+2026-07-12 09:28:31,456 18228 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:28:31] "GET /api/v1/vehicles HTTP/1.1" 303 - 2 0.009 0.113
+2026-07-12 09:28:33,899 18228 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:28:33] "GET /web/login?redirect=/api/v1/vehicles? HTTP/1.1" 200 - 5 0.017 0.363
+2026-07-12 09:28:36,053 18228 INFO transitops odoo.http: Session expired 
+2026-07-12 09:28:36,053 18228 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:28:36] "POST /api/v1/vehicles HTTP/1.1" 303 - 2 0.008 0.102
+2026-07-12 09:28:38,349 18228 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:28:38] "GET /web/login?redirect=/api/v1/vehicles? HTTP/1.1" 200 - 5 0.018 0.231
+2026-07-12 09:28:47,923 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:29:25,685 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:29:48,950 18228 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:30:17,850 30812 INFO ? odoo: Odoo version 17.0 
+2026-07-12 09:30:17,850 30812 INFO ? odoo: Using configuration file at C:\Users\lenovo\OneDrive\Desktop\TransitOps\odoo.conf 
+2026-07-12 09:30:17,850 30812 INFO ? odoo: addons paths: ['C:\\Users\\lenovo\\OneDrive\\Desktop\\TransitOps\\.venv\\Lib\\site-packages\\odoo\\addons', 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\addons\\17.0', 'c:\\temp\\odoo17\\addons', 'c:\\users\\lenovo\\onedrive\\desktop\\transitops\\backend', 'c:\\users\\lenovo\\onedrive\\desktop\\transitops\\.venv\\lib\\site-packages\\odoo\\addons'] 
+2026-07-12 09:30:17,850 30812 INFO ? odoo: database: odoo@localhost:5432 
+2026-07-12 09:30:17,987 30812 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2026-07-12 09:30:18,309 30812 INFO ? odoo.service.server: HTTP service (werkzeug) running on varun:8069 
+2026-07-12 09:33:12,505 9460 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.request:INFO" 
+2026-07-12 09:33:12,505 9460 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.response:INFO" 
+2026-07-12 09:33:12,505 9460 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2026-07-12 09:33:12,505 9460 DEBUG ? odoo.netsvc: logger level set: "odoo:DEBUG" 
+2026-07-12 09:33:12,505 9460 DEBUG ? odoo.netsvc: logger level set: "odoo.sql_db:INFO" 
+2026-07-12 09:33:12,505 9460 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2026-07-12 09:33:12,506 9460 INFO ? odoo: Odoo version 17.0 
+2026-07-12 09:33:12,506 9460 INFO ? odoo: Using configuration file at C:\Users\lenovo\OneDrive\Desktop\TransitOps\odoo.conf 
+2026-07-12 09:33:12,506 9460 INFO ? odoo: addons paths: ['C:\\Users\\lenovo\\OneDrive\\Desktop\\TransitOps\\.venv\\Lib\\site-packages\\odoo\\addons', 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\addons\\17.0', 'c:\\temp\\odoo17\\addons', 'c:\\users\\lenovo\\onedrive\\desktop\\transitops\\backend', 'c:\\users\\lenovo\\onedrive\\desktop\\transitops\\.venv\\lib\\site-packages\\odoo\\addons'] 
+2026-07-12 09:33:12,506 9460 INFO ? odoo: database: odoo@localhost:5432 
+2026-07-12 09:33:12,656 9460 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2026-07-12 09:33:13,060 9460 DEBUG ? odoo.service.server: Setting signal handlers 
+2026-07-12 09:33:13,063 9460 DEBUG ? odoo.service.server: cron0 started! 
+2026-07-12 09:33:13,068 9460 DEBUG ? odoo.service.server: cron1 started! 
+2026-07-12 09:33:13,079 9460 INFO ? odoo.service.server: HTTP service (werkzeug) running on varun:8069 
+2026-07-12 09:34:13,277 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:34:14,366 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:35:13,281 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:35:15,391 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:36:13,293 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:36:16,404 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:37:13,299 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:37:17,423 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:38:13,300 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:38:18,434 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:39:13,308 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:39:19,456 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:39:31,118 9460 DEBUG ? odoo.http: HTTP sessions stored in: c:\users\lenovo\appdata\local\openerp s.a\odoo\sessions 
+2026-07-12 09:39:31,553 9460 DEBUG ? odoo.modules.registry: Multiprocess load registry signaling: [Registry: 1] [Cache default: 1] [Cache assets: 1] [Cache templates: 1] [Cache routing: 1] 
+2026-07-12 09:39:31,562 9460 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-07-12 09:39:31,562 9460 DEBUG ? odoo.modules.loading: Loading module base (1/1) 
+2026-07-12 09:39:31,571 9460 DEBUG ? odoo.modules.loading: Module base loaded in 0.01s, 0 queries 
+2026-07-12 09:39:31,572 9460 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-07-12 09:39:31,611 9460 DEBUG ? odoo.modules.loading: Updating graph with 23 more modules 
+2026-07-12 09:39:31,611 9460 INFO ? odoo.modules.loading: loading 24 modules... 
+2026-07-12 09:39:31,611 9460 DEBUG ? odoo.modules.loading: Loading module web (2/24) 
+2026-07-12 09:39:31,614 9460 DEBUG ? odoo.modules.loading: Module web loaded in 0.00s, 0 queries 
+2026-07-12 09:39:31,614 9460 DEBUG ? odoo.modules.loading: Loading module auth_totp (3/24) 
+2026-07-12 09:39:31,667 9460 DEBUG ? odoo.modules.loading: Module auth_totp loaded in 0.05s, 0 queries 
+2026-07-12 09:39:31,667 9460 DEBUG ? odoo.modules.loading: Loading module base_import (4/24) 
+2026-07-12 09:39:31,679 9460 DEBUG ? odoo.modules.loading: Module base_import loaded in 0.01s, 0 queries 
+2026-07-12 09:39:31,679 9460 DEBUG ? odoo.modules.loading: Loading module base_import_module (5/24) 
+2026-07-12 09:39:31,689 9460 DEBUG ? odoo.modules.loading: Module base_import_module loaded in 0.01s, 0 queries 
+2026-07-12 09:39:31,689 9460 DEBUG ? odoo.modules.loading: Loading module base_setup (6/24) 
+2026-07-12 09:39:31,699 9460 DEBUG ? odoo.modules.loading: Module base_setup loaded in 0.01s, 0 queries 
+2026-07-12 09:39:31,699 9460 DEBUG ? odoo.modules.loading: Loading module bus (7/24) 
+2026-07-12 09:39:31,721 9460 DEBUG ? odoo.modules.loading: Module bus loaded in 0.02s, 0 queries 
+2026-07-12 09:39:31,721 9460 DEBUG ? odoo.modules.loading: Loading module web_tour (8/24) 
+2026-07-12 09:39:31,726 9460 DEBUG ? odoo.modules.loading: Module web_tour loaded in 0.00s, 0 queries 
+2026-07-12 09:39:31,726 9460 DEBUG ? odoo.modules.loading: Loading module iap (9/24) 
+2026-07-12 09:39:31,735 9460 DEBUG ? odoo.modules.loading: Module iap loaded in 0.01s, 0 queries 
+2026-07-12 09:39:31,735 9460 DEBUG ? odoo.modules.loading: Loading module mail (10/24) 
+2026-07-12 09:39:31,898 9460 DEBUG ? odoo.modules.loading: Module mail loaded in 0.16s, 0 queries 
+2026-07-12 09:39:31,898 9460 DEBUG ? odoo.modules.loading: Loading module web_editor (11/24) 
+2026-07-12 09:39:31,922 9460 DEBUG ? odoo.modules.loading: Module web_editor loaded in 0.02s, 0 queries 
+2026-07-12 09:39:31,922 9460 DEBUG ? odoo.modules.loading: Loading module auth_signup (12/24) 
+2026-07-12 09:39:31,933 9460 DEBUG ? odoo.modules.loading: Module auth_signup loaded in 0.01s, 0 queries 
+2026-07-12 09:39:31,933 9460 DEBUG ? odoo.modules.loading: Loading module auth_totp_mail (13/24) 
+2026-07-12 09:39:31,937 9460 DEBUG ? odoo.modules.loading: Module auth_totp_mail loaded in 0.00s, 0 queries 
+2026-07-12 09:39:31,938 9460 DEBUG ? odoo.modules.loading: Loading module base_install_request (14/24) 
+2026-07-12 09:39:31,944 9460 DEBUG ? odoo.modules.loading: Module base_install_request loaded in 0.01s, 0 queries 
+2026-07-12 09:39:31,945 9460 DEBUG ? odoo.modules.loading: Loading module google_gmail (15/24) 
+2026-07-12 09:39:31,953 9460 DEBUG ? odoo.modules.loading: Module google_gmail loaded in 0.01s, 0 queries 
+2026-07-12 09:39:31,953 9460 DEBUG ? odoo.modules.loading: Loading module iap_mail (16/24) 
+2026-07-12 09:39:31,956 9460 DEBUG ? odoo.modules.loading: Module iap_mail loaded in 0.00s, 0 queries 
+2026-07-12 09:39:31,956 9460 DEBUG ? odoo.modules.loading: Loading module mail_bot (17/24) 
+2026-07-12 09:39:31,964 9460 DEBUG ? odoo.modules.loading: Module mail_bot loaded in 0.01s, 0 queries 
+2026-07-12 09:39:31,964 9460 DEBUG ? odoo.modules.loading: Loading module phone_validation (18/24) 
+2026-07-12 09:39:31,982 9460 DEBUG ? odoo.modules.loading: Module phone_validation loaded in 0.02s, 0 queries 
+2026-07-12 09:39:31,982 9460 DEBUG ? odoo.modules.loading: Loading module privacy_lookup (19/24) 
+2026-07-12 09:39:31,989 9460 DEBUG ? odoo.modules.loading: Module privacy_lookup loaded in 0.01s, 0 queries 
+2026-07-12 09:39:31,989 9460 DEBUG ? odoo.modules.loading: Loading module transitops_core (20/24) 
+2026-07-12 09:39:32,039 9460 DEBUG ? odoo.modules.loading: Module transitops_core loaded in 0.05s, 0 queries 
+2026-07-12 09:39:32,039 9460 DEBUG ? odoo.modules.loading: Loading module web_unsplash (21/24) 
+2026-07-12 09:39:32,048 9460 DEBUG ? odoo.modules.loading: Module web_unsplash loaded in 0.01s, 0 queries 
+2026-07-12 09:39:32,048 9460 DEBUG ? odoo.modules.loading: Loading module partner_autocomplete (22/24) 
+2026-07-12 09:39:32,058 9460 DEBUG ? odoo.modules.loading: Module partner_autocomplete loaded in 0.01s, 0 queries 
+2026-07-12 09:39:32,058 9460 DEBUG ? odoo.modules.loading: Loading module sms (23/24) 
+2026-07-12 09:39:32,086 9460 DEBUG ? odoo.modules.loading: Module sms loaded in 0.03s, 0 queries 
+2026-07-12 09:39:32,086 9460 DEBUG ? odoo.modules.loading: Loading module snailmail (24/24) 
+2026-07-12 09:39:32,102 9460 DEBUG ? odoo.modules.loading: Module snailmail loaded in 0.02s, 0 queries 
+2026-07-12 09:39:32,102 9460 INFO ? odoo.modules.loading: 24 modules loaded in 0.49s, 0 queries (+0 extra) 
+2026-07-12 09:39:32,182 9460 INFO ? odoo.modules.loading: Modules loaded. 
+2026-07-12 09:39:32,189 9460 INFO ? odoo.modules.registry: Registry loaded in 0.805s 
+2026-07-12 09:39:32,191 9460 INFO transitops odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-07-12 09:39:32,244 9460 INFO transitops odoo.http: Session expired 
+2026-07-12 09:39:32,245 9460 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:39:32] "OPTIONS /api/v1/vehicles HTTP/1.1" 303 - 17 0.057 1.071
+2026-07-12 09:39:35,120 9460 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:39:35] "GET /web/login?redirect=/api/v1/vehicles? HTTP/1.1" 200 - 58 0.076 0.777
+2026-07-12 09:39:37,308 9460 INFO transitops odoo.http: Session expired 
+2026-07-12 09:39:37,309 9460 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:39:37] "GET /api/v1/vehicles HTTP/1.1" 303 - 2 0.009 0.114
+2026-07-12 09:39:39,636 9460 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:39:39] "GET /web/login?redirect=/api/v1/vehicles? HTTP/1.1" 200 - 5 0.016 0.270
+2026-07-12 09:39:41,789 9460 INFO transitops odoo.http: Session expired 
+2026-07-12 09:39:41,789 9460 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:39:41] "POST /api/v1/vehicles HTTP/1.1" 303 - 2 0.008 0.117
+2026-07-12 09:39:44,110 9460 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:39:44] "GET /web/login?redirect=/api/v1/vehicles? HTTP/1.1" 200 - 5 0.016 0.264
+2026-07-12 09:40:13,313 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:40:13,315 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:40:20,480 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:40:20,481 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:41:13,322 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:41:13,324 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:41:21,499 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:41:21,501 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:42:13,333 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:42:13,335 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:42:22,524 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:42:22,526 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:43:13,344 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:43:13,346 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:43:23,548 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:43:23,550 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:44:13,353 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:44:13,355 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:44:24,562 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:44:24,564 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:45:13,361 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:45:13,363 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:45:24,744 45184 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.request:INFO" 
+2026-07-12 09:45:24,744 45184 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.response:INFO" 
+2026-07-12 09:45:24,744 45184 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2026-07-12 09:45:24,744 45184 DEBUG ? odoo.netsvc: logger level set: "odoo:DEBUG" 
+2026-07-12 09:45:24,744 45184 DEBUG ? odoo.netsvc: logger level set: "odoo.sql_db:INFO" 
+2026-07-12 09:45:24,744 45184 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2026-07-12 09:45:24,745 45184 INFO ? odoo: Odoo version 17.0 
+2026-07-12 09:45:24,745 45184 INFO ? odoo: Using configuration file at C:\Users\lenovo\OneDrive\Desktop\TransitOps\odoo.conf 
+2026-07-12 09:45:24,745 45184 INFO ? odoo: addons paths: ['C:\\Users\\lenovo\\OneDrive\\Desktop\\TransitOps\\.venv\\Lib\\site-packages\\odoo\\addons', 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\addons\\17.0', 'c:\\temp\\odoo17\\addons', 'c:\\users\\lenovo\\onedrive\\desktop\\transitops\\backend', 'c:\\users\\lenovo\\onedrive\\desktop\\transitops\\.venv\\lib\\site-packages\\odoo\\addons'] 
+2026-07-12 09:45:24,745 45184 INFO ? odoo: database: odoo@localhost:5432 
+2026-07-12 09:45:24,873 45184 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2026-07-12 09:45:25,151 45184 DEBUG ? odoo.service.server: Setting signal handlers 
+2026-07-12 09:45:25,155 45184 DEBUG ? odoo.service.server: cron0 started! 
+2026-07-12 09:45:25,158 45184 DEBUG ? odoo.service.server: cron1 started! 
+2026-07-12 09:45:25,165 45184 INFO ? odoo.service.server: HTTP service (werkzeug) running on varun:8069 
+2026-07-12 09:45:25,587 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:45:25,589 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:45:58,132 9460 INFO transitops odoo.addons.base.models.res_users: Login successful for db:transitops login:admin from 127.0.0.1 
+2026-07-12 09:45:58,183 9460 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:45:58] "POST /api/v1/auth/login HTTP/1.1" 200 - 26 0.072 1.252
+2026-07-12 09:45:58,362 9460 INFO transitops odoo.http: Session expired 
+2026-07-12 09:45:58,362 9460 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:45:58] "OPTIONS /api/v1/vehicles HTTP/1.1" 303 - 2 0.008 0.101
+2026-07-12 09:45:58,602 9460 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:45:58] "GET /web/login?redirect=/api/v1/vehicles? HTTP/1.1" 200 - 5 0.014 0.222
+2026-07-12 09:46:13,376 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:46:13,378 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:46:25,244 45184 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:46:26,312 45184 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:46:26,609 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:46:26,611 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:47:13,390 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:47:13,391 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:47:25,256 45184 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:47:27,327 45184 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:47:27,624 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:47:27,625 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:48:13,394 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:48:13,396 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:48:25,264 45184 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:48:28,345 45184 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:48:28,640 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:48:28,643 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:48:43,363 9460 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:48:43] "GET / HTTP/1.1" 303 - 2 0.008 0.104
+2026-07-12 09:48:45,386 9460 DEBUG ? odoo.tools._vendor.sessions: Could not load session from disk. Use empty session. 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\tools\_vendor\sessions.py", line 216, in get
+    f = open(self.get_session_filename(sid), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\sessions\\46\\46868b03f5e9d82a1c6634057b3e911cdf8fadbe'
+2026-07-12 09:48:45,514 9460 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:48:45] "GET /web HTTP/1.1" 303 - 2 0.008 0.120
+2026-07-12 09:48:47,568 9460 DEBUG ? odoo.tools._vendor.sessions: Could not load session from disk. Use empty session. 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\tools\_vendor\sessions.py", line 216, in get
+    f = open(self.get_session_filename(sid), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\sessions\\46\\46868b03f5e9d82a1c6634057b3e911cdf8fadbe'
+2026-07-12 09:48:47,969 9460 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:48:47] "GET /web/login HTTP/1.1" 200 - 5 0.015 0.386
+2026-07-12 09:48:50,990 9460 INFO transitops odoo.addons.base.models.res_users: Login successful for db:transitops login:admin from 127.0.0.1 
+2026-07-12 09:48:51,012 9460 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:48:51] "POST /api/v1/auth/login HTTP/1.1" 200 - 15 0.018 0.962
+2026-07-12 09:48:53,084 9460 ERROR transitops odoo.addons.transitops_core.controllers.api: Create vehicle error 
+Traceback (most recent call last):
+  File "c:\users\lenovo\onedrive\desktop\transitops\backend\transitops_core\controllers\api.py", line 121, in create_vehicle
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2026-07-12 09:48:53,087 9460 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:48:53] "OPTIONS /api/v1/vehicles HTTP/1.1" 500 - 1 0.001 0.005
+2026-07-12 09:49:13,405 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:49:13,408 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:49:25,265 45184 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:49:29,359 45184 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:49:29,655 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:49:29,657 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:50:13,413 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:50:13,416 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:50:25,279 45184 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:50:30,383 45184 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:50:30,681 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:50:30,686 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:51:13,419 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:51:13,422 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:51:25,282 45184 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:51:31,406 45184 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:51:31,701 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:51:31,703 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:52:13,429 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:52:13,432 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:52:25,286 45184 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:52:32,431 45184 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:52:32,728 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:52:32,731 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:53:05,174 9460 INFO transitops odoo.http: Session expired 
+2026-07-12 09:53:05,174 9460 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:53:05] "OPTIONS /api/v1/vehicles HTTP/1.1" 303 - 2 0.013 0.113
+2026-07-12 09:53:07,585 9460 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:53:07] "GET /web/login?redirect=/api/v1/vehicles? HTTP/1.1" 200 - 5 0.016 0.341
+2026-07-12 09:53:13,444 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:53:13,446 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:53:25,302 45184 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:53:33,456 45184 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:53:33,752 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:53:33,754 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:54:13,449 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:54:13,451 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:54:25,311 45184 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:54:34,471 45184 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:54:34,767 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:54:34,768 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:55:13,453 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:55:13,455 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:55:25,319 45184 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:55:35,492 45184 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:55:35,789 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:55:35,790 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:56:13,487 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:56:13,489 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:56:25,332 45184 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:56:36,510 45184 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:56:36,806 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:56:36,808 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:57:13,503 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:57:13,506 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:57:25,334 45184 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:57:37,535 45184 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:57:37,820 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:57:37,822 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:57:51,332 9460 INFO transitops odoo.http: Session expired 
+2026-07-12 09:57:51,332 9460 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:57:51] "POST /api/v1/vehicles HTTP/1.1" 303 - 2 0.005 0.189
+2026-07-12 09:57:53,703 9460 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 09:57:53] "GET /web/login?redirect=/api/v1/vehicles? HTTP/1.1" 200 - 5 0.014 0.318
+2026-07-12 09:58:13,512 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:58:13,513 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:58:25,346 45184 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:58:38,547 45184 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:58:38,842 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:58:38,843 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:59:13,523 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:59:13,525 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 09:59:25,348 45184 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 09:59:39,568 45184 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:59:39,865 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 09:59:39,866 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:00:13,538 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:00:13,540 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:00:25,354 45184 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:00:40,591 45184 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:00:40,889 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:00:40,891 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:01:13,552 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:01:13,553 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:01:25,356 45184 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:01:41,610 45184 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:01:41,905 9460 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:01:41,907 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:01:57,436 9460 INFO transitops odoo.addons.base.models.res_users: Login successful for db:transitops login:admin from 127.0.0.1 
+2026-07-12 10:01:57,450 9460 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:01:57] "POST /api/v1/auth/login HTTP/1.1" 200 - 15 0.022 0.723
+2026-07-12 10:01:59,517 9460 DEBUG transitops odoo.tools.translate: no translation language detected, skipping translation for "'This operation is allowed for the following groups:\n%(groups_list)s'"  
+2026-07-12 10:01:59,517 9460 DEBUG transitops odoo.tools.translate: no translation language detected, skipping translation for "'Contact your administrator to request access if necessary.'"  
+2026-07-12 10:01:59,517 9460 INFO transitops odoo.addons.base.models.ir_model: Access Denied by ACLs for operation: read, uid: 2, model: transitops.vehicle 
+2026-07-12 10:01:59,518 9460 DEBUG transitops odoo.tools.translate: no translation language detected, skipping translation for ""You are not allowed to access '%(document_kind)s' (%(document_model)s) records.""  
+2026-07-12 10:01:59,518 9460 WARNING transitops odoo.http: You are not allowed to access 'TransitOps Vehicle' (transitops.vehicle) records.
+
+This operation is allowed for the following groups:
+	- TransitOps/Driver
+	- TransitOps/Fleet Manager
+
+Contact your administrator to request access if necessary. 
+2026-07-12 10:01:59,518 9460 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:01:59] "GET /api/v1/vehicles HTTP/1.1" 403 - 4 0.006 0.004
+2026-07-12 10:02:13,566 9460 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:02:13,568 9460 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:02:25,359 45184 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:02:42,424 44996 INFO ? odoo: Odoo version 17.0 
+2026-07-12 10:02:42,425 44996 INFO ? odoo: Using configuration file at C:\Users\lenovo\OneDrive\Desktop\TransitOps\odoo.conf 
+2026-07-12 10:02:42,425 44996 INFO ? odoo: addons paths: ['C:\\Users\\lenovo\\OneDrive\\Desktop\\TransitOps\\.venv\\Lib\\site-packages\\odoo\\addons', 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\addons\\17.0', 'c:\\temp\\odoo17\\addons', 'c:\\users\\lenovo\\onedrive\\desktop\\transitops\\backend', 'c:\\users\\lenovo\\onedrive\\desktop\\transitops\\.venv\\lib\\site-packages\\odoo\\addons'] 
+2026-07-12 10:02:42,425 44996 INFO ? odoo: database: odoo@localhost:5432 
+2026-07-12 10:02:42,535 44996 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2026-07-12 10:02:42,796 44996 INFO ? odoo.service.server: Initiating shutdown 
+2026-07-12 10:02:42,796 44996 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-07-12 10:03:29,398 35800 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.request:INFO" 
+2026-07-12 10:03:29,398 35800 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.response:INFO" 
+2026-07-12 10:03:29,398 35800 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2026-07-12 10:03:29,398 35800 DEBUG ? odoo.netsvc: logger level set: "odoo:DEBUG" 
+2026-07-12 10:03:29,399 35800 DEBUG ? odoo.netsvc: logger level set: "odoo.sql_db:INFO" 
+2026-07-12 10:03:29,399 35800 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2026-07-12 10:03:29,399 35800 INFO ? odoo: Odoo version 17.0 
+2026-07-12 10:03:29,399 35800 INFO ? odoo: Using configuration file at C:\Users\lenovo\OneDrive\Desktop\TransitOps\odoo.conf 
+2026-07-12 10:03:29,399 35800 INFO ? odoo: addons paths: ['C:\\Users\\lenovo\\OneDrive\\Desktop\\TransitOps\\.venv\\Lib\\site-packages\\odoo\\addons', 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\addons\\17.0', 'c:\\temp\\odoo17\\addons', 'c:\\users\\lenovo\\onedrive\\desktop\\transitops\\backend', 'c:\\users\\lenovo\\onedrive\\desktop\\transitops\\.venv\\lib\\site-packages\\odoo\\addons'] 
+2026-07-12 10:03:29,399 35800 INFO ? odoo: database: odoo@localhost:5432 
+2026-07-12 10:03:29,512 35800 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2026-07-12 10:03:29,823 35800 DEBUG ? odoo.service.server: Setting signal handlers 
+2026-07-12 10:03:29,826 35800 DEBUG ? odoo.service.server: cron0 started! 
+2026-07-12 10:03:29,833 35800 DEBUG ? odoo.service.server: cron1 started! 
+2026-07-12 10:03:29,842 35800 INFO ? odoo.service.server: HTTP service (werkzeug) running on varun:8069 
+2026-07-12 10:03:56,256 35800 DEBUG ? odoo.http: HTTP sessions stored in: c:\users\lenovo\appdata\local\openerp s.a\odoo\sessions 
+2026-07-12 10:03:56,490 35800 DEBUG ? odoo.modules.registry: Multiprocess load registry signaling: [Registry: 1] [Cache default: 1] [Cache assets: 1] [Cache templates: 1] [Cache routing: 1] 
+2026-07-12 10:03:56,494 35800 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-07-12 10:03:56,494 35800 DEBUG ? odoo.modules.loading: Loading module base (1/1) 
+2026-07-12 10:03:56,499 35800 DEBUG ? odoo.modules.loading: Module base loaded in 0.01s, 0 queries 
+2026-07-12 10:03:56,500 35800 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-07-12 10:03:56,522 35800 DEBUG ? odoo.modules.loading: Updating graph with 23 more modules 
+2026-07-12 10:03:56,522 35800 INFO ? odoo.modules.loading: loading 24 modules... 
+2026-07-12 10:03:56,522 35800 DEBUG ? odoo.modules.loading: Loading module web (2/24) 
+2026-07-12 10:03:56,523 35800 DEBUG ? odoo.modules.loading: Module web loaded in 0.00s, 0 queries 
+2026-07-12 10:03:56,523 35800 DEBUG ? odoo.modules.loading: Loading module auth_totp (3/24) 
+2026-07-12 10:03:56,550 35800 DEBUG ? odoo.modules.loading: Module auth_totp loaded in 0.03s, 0 queries 
+2026-07-12 10:03:56,550 35800 DEBUG ? odoo.modules.loading: Loading module base_import (4/24) 
+2026-07-12 10:03:56,556 35800 DEBUG ? odoo.modules.loading: Module base_import loaded in 0.01s, 0 queries 
+2026-07-12 10:03:56,556 35800 DEBUG ? odoo.modules.loading: Loading module base_import_module (5/24) 
+2026-07-12 10:03:56,561 35800 DEBUG ? odoo.modules.loading: Module base_import_module loaded in 0.00s, 0 queries 
+2026-07-12 10:03:56,562 35800 DEBUG ? odoo.modules.loading: Loading module base_setup (6/24) 
+2026-07-12 10:03:56,567 35800 DEBUG ? odoo.modules.loading: Module base_setup loaded in 0.01s, 0 queries 
+2026-07-12 10:03:56,567 35800 DEBUG ? odoo.modules.loading: Loading module bus (7/24) 
+2026-07-12 10:03:56,580 35800 DEBUG ? odoo.modules.loading: Module bus loaded in 0.01s, 0 queries 
+2026-07-12 10:03:56,580 35800 DEBUG ? odoo.modules.loading: Loading module web_tour (8/24) 
+2026-07-12 10:03:56,583 35800 DEBUG ? odoo.modules.loading: Module web_tour loaded in 0.00s, 0 queries 
+2026-07-12 10:03:56,583 35800 DEBUG ? odoo.modules.loading: Loading module iap (9/24) 
+2026-07-12 10:03:56,587 35800 DEBUG ? odoo.modules.loading: Module iap loaded in 0.00s, 0 queries 
+2026-07-12 10:03:56,587 35800 DEBUG ? odoo.modules.loading: Loading module mail (10/24) 
+2026-07-12 10:03:56,682 35800 DEBUG ? odoo.modules.loading: Module mail loaded in 0.09s, 0 queries 
+2026-07-12 10:03:56,682 35800 DEBUG ? odoo.modules.loading: Loading module web_editor (11/24) 
+2026-07-12 10:03:56,695 35800 DEBUG ? odoo.modules.loading: Module web_editor loaded in 0.01s, 0 queries 
+2026-07-12 10:03:56,696 35800 DEBUG ? odoo.modules.loading: Loading module auth_signup (12/24) 
+2026-07-12 10:03:56,702 35800 DEBUG ? odoo.modules.loading: Module auth_signup loaded in 0.01s, 0 queries 
+2026-07-12 10:03:56,702 35800 DEBUG ? odoo.modules.loading: Loading module auth_totp_mail (13/24) 
+2026-07-12 10:03:56,704 35800 DEBUG ? odoo.modules.loading: Module auth_totp_mail loaded in 0.00s, 0 queries 
+2026-07-12 10:03:56,704 35800 DEBUG ? odoo.modules.loading: Loading module base_install_request (14/24) 
+2026-07-12 10:03:56,708 35800 DEBUG ? odoo.modules.loading: Module base_install_request loaded in 0.00s, 0 queries 
+2026-07-12 10:03:56,709 35800 DEBUG ? odoo.modules.loading: Loading module google_gmail (15/24) 
+2026-07-12 10:03:56,713 35800 DEBUG ? odoo.modules.loading: Module google_gmail loaded in 0.00s, 0 queries 
+2026-07-12 10:03:56,713 35800 DEBUG ? odoo.modules.loading: Loading module iap_mail (16/24) 
+2026-07-12 10:03:56,716 35800 DEBUG ? odoo.modules.loading: Module iap_mail loaded in 0.00s, 0 queries 
+2026-07-12 10:03:56,716 35800 DEBUG ? odoo.modules.loading: Loading module mail_bot (17/24) 
+2026-07-12 10:03:56,719 35800 DEBUG ? odoo.modules.loading: Module mail_bot loaded in 0.00s, 0 queries 
+2026-07-12 10:03:56,719 35800 DEBUG ? odoo.modules.loading: Loading module phone_validation (18/24) 
+2026-07-12 10:03:56,729 35800 DEBUG ? odoo.modules.loading: Module phone_validation loaded in 0.01s, 0 queries 
+2026-07-12 10:03:56,730 35800 DEBUG ? odoo.modules.loading: Loading module privacy_lookup (19/24) 
+2026-07-12 10:03:56,735 35800 DEBUG ? odoo.modules.loading: Module privacy_lookup loaded in 0.01s, 0 queries 
+2026-07-12 10:03:56,735 35800 DEBUG ? odoo.modules.loading: Loading module transitops_core (20/24) 
+2026-07-12 10:03:56,757 35800 DEBUG ? odoo.modules.loading: Module transitops_core loaded in 0.02s, 0 queries 
+2026-07-12 10:03:56,757 35800 DEBUG ? odoo.modules.loading: Loading module web_unsplash (21/24) 
+2026-07-12 10:03:56,761 35800 DEBUG ? odoo.modules.loading: Module web_unsplash loaded in 0.00s, 0 queries 
+2026-07-12 10:03:56,761 35800 DEBUG ? odoo.modules.loading: Loading module partner_autocomplete (22/24) 
+2026-07-12 10:03:56,768 35800 DEBUG ? odoo.modules.loading: Module partner_autocomplete loaded in 0.01s, 0 queries 
+2026-07-12 10:03:56,769 35800 DEBUG ? odoo.modules.loading: Loading module sms (23/24) 
+2026-07-12 10:03:56,787 35800 DEBUG ? odoo.modules.loading: Module sms loaded in 0.02s, 0 queries 
+2026-07-12 10:03:56,787 35800 DEBUG ? odoo.modules.loading: Loading module snailmail (24/24) 
+2026-07-12 10:03:56,795 35800 DEBUG ? odoo.modules.loading: Module snailmail loaded in 0.01s, 0 queries 
+2026-07-12 10:03:56,796 35800 INFO ? odoo.modules.loading: 24 modules loaded in 0.27s, 0 queries (+0 extra) 
+2026-07-12 10:03:56,843 35800 INFO ? odoo.modules.loading: Modules loaded. 
+2026-07-12 10:03:56,849 35800 INFO ? odoo.modules.registry: Registry loaded in 0.436s 
+2026-07-12 10:03:56,851 35800 INFO transitops odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-07-12 10:03:56,887 35800 INFO transitops odoo.http: Session expired 
+2026-07-12 10:03:56,888 35800 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:03:56] "OPTIONS /api/v1/vehicles HTTP/1.1" 303 - 17 0.033 0.600
+2026-07-12 10:03:59,372 35800 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:03:59] "GET /web/login?redirect=/api/v1/vehicles? HTTP/1.1" 200 - 58 0.046 0.394
+2026-07-12 10:04:30,010 35800 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:04:30,011 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:04:31,091 35800 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:04:31,093 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:05:30,014 35800 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:05:30,015 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:05:32,108 35800 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:05:32,109 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:06:30,025 35800 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:06:30,027 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:06:33,128 35800 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:06:33,129 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:07:30,027 35800 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:07:30,029 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:07:34,144 35800 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:07:34,146 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:08:30,040 35800 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:08:30,042 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:08:35,165 35800 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:08:35,167 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:09:30,049 35800 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:09:30,051 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:09:36,183 35800 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:09:36,185 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:10:30,061 35800 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:10:30,063 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:10:37,196 35800 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:10:37,198 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:11:30,076 35800 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:11:30,078 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:11:38,212 35800 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:11:38,213 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:12:30,081 35800 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:12:30,082 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:12:39,235 35800 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:12:39,236 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:13:30,083 35800 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:13:30,084 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:13:40,261 35800 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:13:40,262 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:14:30,099 35800 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:14:30,101 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:14:41,277 35800 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:14:41,280 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:15:30,115 35800 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:15:30,117 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:15:42,292 35800 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:15:42,294 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:15:46,067 35800 INFO transitops odoo.http: Session expired 
+2026-07-12 10:15:46,067 35800 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:15:46] "OPTIONS /api/v1/vehicles HTTP/1.1" 303 - 2 0.005 0.089
+2026-07-12 10:16:30,131 35800 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:16:30,133 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:16:43,311 35800 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:16:43,313 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:17:30,135 35800 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:17:30,136 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:17:44,332 35800 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:17:44,333 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:18:30,144 35800 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:18:30,145 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:18:45,352 35800 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:18:45,354 35800 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:20:20,770 21704 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.request:INFO" 
+2026-07-12 10:20:20,770 21704 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.response:INFO" 
+2026-07-12 10:20:20,770 21704 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2026-07-12 10:20:20,770 21704 DEBUG ? odoo.netsvc: logger level set: "odoo:DEBUG" 
+2026-07-12 10:20:20,770 21704 DEBUG ? odoo.netsvc: logger level set: "odoo.sql_db:INFO" 
+2026-07-12 10:20:20,770 21704 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2026-07-12 10:20:20,771 21704 INFO ? odoo: Odoo version 17.0 
+2026-07-12 10:20:20,771 21704 INFO ? odoo: Using configuration file at C:\Users\lenovo\OneDrive\Desktop\TransitOps\odoo.conf 
+2026-07-12 10:20:20,771 21704 INFO ? odoo: addons paths: ['C:\\Users\\lenovo\\OneDrive\\Desktop\\TransitOps\\.venv\\Lib\\site-packages\\odoo\\addons', 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\addons\\17.0', 'c:\\temp\\odoo17\\addons', 'c:\\users\\lenovo\\onedrive\\desktop\\transitops\\backend', 'c:\\users\\lenovo\\onedrive\\desktop\\transitops\\.venv\\lib\\site-packages\\odoo\\addons'] 
+2026-07-12 10:20:20,772 21704 INFO ? odoo: database: odoo@localhost:5432 
+2026-07-12 10:20:20,891 21704 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2026-07-12 10:20:21,146 21704 DEBUG ? odoo.service.server: Setting signal handlers 
+2026-07-12 10:20:21,148 21704 DEBUG ? odoo.service.server: cron0 started! 
+2026-07-12 10:20:21,151 21704 DEBUG ? odoo.service.server: cron1 started! 
+2026-07-12 10:20:21,159 21704 INFO ? odoo.service.server: HTTP service (werkzeug) running on varun:8069 
+2026-07-12 10:21:21,322 21704 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:21:22,501 21704 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:22:21,332 21704 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:22:23,517 21704 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:23:21,345 21704 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:23:24,535 21704 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:24:21,358 21704 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:24:25,561 21704 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:25:21,365 21704 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:25:26,580 21704 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:26:21,376 21704 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:26:27,596 21704 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:27:21,380 21704 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:27:28,617 21704 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:28:21,388 21704 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:28:29,628 21704 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:29:21,388 21704 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:29:30,653 21704 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:30:12,067 21704 DEBUG ? odoo.http: HTTP sessions stored in: c:\users\lenovo\appdata\local\openerp s.a\odoo\sessions 
+2026-07-12 10:30:12,299 21704 DEBUG ? odoo.modules.registry: Multiprocess load registry signaling: [Registry: 1] [Cache default: 1] [Cache assets: 1] [Cache templates: 1] [Cache routing: 1] 
+2026-07-12 10:30:12,307 21704 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-07-12 10:30:12,307 21704 DEBUG ? odoo.modules.loading: Loading module base (1/1) 
+2026-07-12 10:30:12,312 21704 DEBUG ? odoo.modules.loading: Module base loaded in 0.00s, 0 queries 
+2026-07-12 10:30:12,312 21704 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-07-12 10:30:12,341 21704 DEBUG ? odoo.modules.loading: Updating graph with 23 more modules 
+2026-07-12 10:30:12,341 21704 INFO ? odoo.modules.loading: loading 24 modules... 
+2026-07-12 10:30:12,341 21704 DEBUG ? odoo.modules.loading: Loading module web (2/24) 
+2026-07-12 10:30:12,343 21704 DEBUG ? odoo.modules.loading: Module web loaded in 0.00s, 0 queries 
+2026-07-12 10:30:12,343 21704 DEBUG ? odoo.modules.loading: Loading module auth_totp (3/24) 
+2026-07-12 10:30:12,380 21704 DEBUG ? odoo.modules.loading: Module auth_totp loaded in 0.04s, 0 queries 
+2026-07-12 10:30:12,380 21704 DEBUG ? odoo.modules.loading: Loading module base_import (4/24) 
+2026-07-12 10:30:12,392 21704 DEBUG ? odoo.modules.loading: Module base_import loaded in 0.01s, 0 queries 
+2026-07-12 10:30:12,392 21704 DEBUG ? odoo.modules.loading: Loading module base_import_module (5/24) 
+2026-07-12 10:30:12,400 21704 DEBUG ? odoo.modules.loading: Module base_import_module loaded in 0.01s, 0 queries 
+2026-07-12 10:30:12,400 21704 DEBUG ? odoo.modules.loading: Loading module base_setup (6/24) 
+2026-07-12 10:30:12,408 21704 DEBUG ? odoo.modules.loading: Module base_setup loaded in 0.01s, 0 queries 
+2026-07-12 10:30:12,408 21704 DEBUG ? odoo.modules.loading: Loading module bus (7/24) 
+2026-07-12 10:30:12,426 21704 DEBUG ? odoo.modules.loading: Module bus loaded in 0.02s, 0 queries 
+2026-07-12 10:30:12,426 21704 DEBUG ? odoo.modules.loading: Loading module web_tour (8/24) 
+2026-07-12 10:30:12,429 21704 DEBUG ? odoo.modules.loading: Module web_tour loaded in 0.00s, 0 queries 
+2026-07-12 10:30:12,429 21704 DEBUG ? odoo.modules.loading: Loading module iap (9/24) 
+2026-07-12 10:30:12,435 21704 DEBUG ? odoo.modules.loading: Module iap loaded in 0.01s, 0 queries 
+2026-07-12 10:30:12,436 21704 DEBUG ? odoo.modules.loading: Loading module mail (10/24) 
+2026-07-12 10:30:12,575 21704 DEBUG ? odoo.modules.loading: Module mail loaded in 0.14s, 0 queries 
+2026-07-12 10:30:12,575 21704 DEBUG ? odoo.modules.loading: Loading module web_editor (11/24) 
+2026-07-12 10:30:12,597 21704 DEBUG ? odoo.modules.loading: Module web_editor loaded in 0.02s, 0 queries 
+2026-07-12 10:30:12,597 21704 DEBUG ? odoo.modules.loading: Loading module auth_signup (12/24) 
+2026-07-12 10:30:12,605 21704 DEBUG ? odoo.modules.loading: Module auth_signup loaded in 0.01s, 0 queries 
+2026-07-12 10:30:12,606 21704 DEBUG ? odoo.modules.loading: Loading module auth_totp_mail (13/24) 
+2026-07-12 10:30:12,609 21704 DEBUG ? odoo.modules.loading: Module auth_totp_mail loaded in 0.00s, 0 queries 
+2026-07-12 10:30:12,610 21704 DEBUG ? odoo.modules.loading: Loading module base_install_request (14/24) 
+2026-07-12 10:30:12,624 21704 DEBUG ? odoo.modules.loading: Module base_install_request loaded in 0.01s, 0 queries 
+2026-07-12 10:30:12,624 21704 DEBUG ? odoo.modules.loading: Loading module google_gmail (15/24) 
+2026-07-12 10:30:12,635 21704 DEBUG ? odoo.modules.loading: Module google_gmail loaded in 0.01s, 0 queries 
+2026-07-12 10:30:12,635 21704 DEBUG ? odoo.modules.loading: Loading module iap_mail (16/24) 
+2026-07-12 10:30:12,639 21704 DEBUG ? odoo.modules.loading: Module iap_mail loaded in 0.00s, 0 queries 
+2026-07-12 10:30:12,639 21704 DEBUG ? odoo.modules.loading: Loading module mail_bot (17/24) 
+2026-07-12 10:30:12,646 21704 DEBUG ? odoo.modules.loading: Module mail_bot loaded in 0.01s, 0 queries 
+2026-07-12 10:30:12,646 21704 DEBUG ? odoo.modules.loading: Loading module phone_validation (18/24) 
+2026-07-12 10:30:12,663 21704 DEBUG ? odoo.modules.loading: Module phone_validation loaded in 0.02s, 0 queries 
+2026-07-12 10:30:12,663 21704 DEBUG ? odoo.modules.loading: Loading module privacy_lookup (19/24) 
+2026-07-12 10:30:12,672 21704 DEBUG ? odoo.modules.loading: Module privacy_lookup loaded in 0.01s, 0 queries 
+2026-07-12 10:30:12,672 21704 DEBUG ? odoo.modules.loading: Loading module transitops_core (20/24) 
+2026-07-12 10:30:12,703 21704 DEBUG ? odoo.modules.loading: Module transitops_core loaded in 0.03s, 0 queries 
+2026-07-12 10:30:12,703 21704 DEBUG ? odoo.modules.loading: Loading module web_unsplash (21/24) 
+2026-07-12 10:30:12,709 21704 DEBUG ? odoo.modules.loading: Module web_unsplash loaded in 0.01s, 0 queries 
+2026-07-12 10:30:12,709 21704 DEBUG ? odoo.modules.loading: Loading module partner_autocomplete (22/24) 
+2026-07-12 10:30:12,718 21704 DEBUG ? odoo.modules.loading: Module partner_autocomplete loaded in 0.01s, 0 queries 
+2026-07-12 10:30:12,718 21704 DEBUG ? odoo.modules.loading: Loading module sms (23/24) 
+2026-07-12 10:30:12,747 21704 DEBUG ? odoo.modules.loading: Module sms loaded in 0.03s, 0 queries 
+2026-07-12 10:30:12,747 21704 DEBUG ? odoo.modules.loading: Loading module snailmail (24/24) 
+2026-07-12 10:30:12,761 21704 DEBUG ? odoo.modules.loading: Module snailmail loaded in 0.01s, 0 queries 
+2026-07-12 10:30:12,761 21704 INFO ? odoo.modules.loading: 24 modules loaded in 0.42s, 0 queries (+0 extra) 
+2026-07-12 10:30:12,815 21704 INFO ? odoo.modules.loading: Modules loaded. 
+2026-07-12 10:30:12,821 21704 INFO ? odoo.modules.registry: Registry loaded in 0.616s 
+2026-07-12 10:30:12,823 21704 INFO transitops odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-07-12 10:30:12,870 21704 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:30:12] "GET / HTTP/1.1" 303 - 21 0.045 0.760
+2026-07-12 10:30:14,931 21704 DEBUG ? odoo.tools._vendor.sessions: Could not load session from disk. Use empty session. 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\tools\_vendor\sessions.py", line 216, in get
+    f = open(self.get_session_filename(sid), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\sessions\\c4\\c433059f788d7eaf262c02cf5bba041a6356f594'
+2026-07-12 10:30:15,009 21704 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:30:15] "GET /web HTTP/1.1" 303 - 2 0.007 0.072
+2026-07-12 10:30:17,036 21704 DEBUG ? odoo.tools._vendor.sessions: Could not load session from disk. Use empty session. 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\tools\_vendor\sessions.py", line 216, in get
+    f = open(self.get_session_filename(sid), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\sessions\\c4\\c433059f788d7eaf262c02cf5bba041a6356f594'
+2026-07-12 10:30:17,532 21704 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:30:17] "GET /web/login HTTP/1.1" 200 - 55 0.053 0.443
+2026-07-12 10:30:20,260 21704 INFO transitops odoo.addons.base.models.res_users: Login successful for db:transitops login:admin from 127.0.0.1 
+2026-07-12 10:30:20,290 21704 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:30:20] "POST /api/v1/auth/login HTTP/1.1" 200 - 26 0.041 0.640
+2026-07-12 10:30:21,401 21704 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:30:21,403 21704 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:30:22,338 21704 ERROR transitops odoo.addons.transitops_core.controllers.api: Create vehicle error 
+Traceback (most recent call last):
+  File "c:\users\lenovo\onedrive\desktop\transitops\backend\transitops_core\controllers\api.py", line 152, in create_vehicle
+    data = json.loads(request.httprequest.data)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2026-07-12 10:30:22,340 21704 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:30:22] "OPTIONS /api/v1/vehicles HTTP/1.1" 500 - 1 0.000 0.004
+2026-07-12 10:30:31,676 21704 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:30:31,677 21704 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:31:21,412 21704 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:31:21,413 21704 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:31:32,696 21704 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:31:32,698 21704 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:32:21,423 21704 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:32:21,425 21704 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:32:33,714 21704 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:32:33,715 21704 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:33:21,426 21704 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:33:21,428 21704 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:33:27,119 21704 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:33:27] "GET / HTTP/1.1" 303 - 2 0.007 0.154
+2026-07-12 10:33:29,170 21704 DEBUG ? odoo.tools._vendor.sessions: Could not load session from disk. Use empty session. 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\tools\_vendor\sessions.py", line 216, in get
+    f = open(self.get_session_filename(sid), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\sessions\\24\\249ad4316819526d86f4b3503240b8d2fb8728ce'
+2026-07-12 10:33:29,248 21704 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:33:29] "GET /web HTTP/1.1" 303 - 2 0.005 0.073
+2026-07-12 10:33:31,299 21704 DEBUG ? odoo.tools._vendor.sessions: Could not load session from disk. Use empty session. 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\tools\_vendor\sessions.py", line 216, in get
+    f = open(self.get_session_filename(sid), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\sessions\\24\\249ad4316819526d86f4b3503240b8d2fb8728ce'
+2026-07-12 10:33:31,524 21704 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:33:31] "GET /web/login HTTP/1.1" 200 - 5 0.015 0.211
+2026-07-12 10:33:34,734 21704 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:33:34,812 21704 INFO transitops odoo.addons.base.models.res_users: Login successful for db:transitops login:admin from 127.0.0.1 
+2026-07-12 10:33:34,816 21704 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:33:34,832 21704 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:33:34] "POST /api/v1/auth/login HTTP/1.1" 200 - 15 0.012 1.242
+2026-07-12 10:33:36,891 21704 ERROR transitops odoo.addons.transitops_core.controllers.api: Create vehicle error 
+Traceback (most recent call last):
+  File "c:\users\lenovo\onedrive\desktop\transitops\backend\transitops_core\controllers\api.py", line 152, in create_vehicle
+    if request.httprequest.method == 'OPTIONS':
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2026-07-12 10:33:36,894 21704 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:33:36] "OPTIONS /api/v1/vehicles HTTP/1.1" 500 - 1 0.001 0.007
+2026-07-12 10:34:21,438 21704 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:34:21,441 21704 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:34:35,834 21704 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:34:35,835 21704 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:35:21,446 21704 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:35:21,447 21704 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:35:35,333 21704 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:35:35] "GET / HTTP/1.1" 303 - 2 0.005 0.149
+2026-07-12 10:35:36,850 21704 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:35:36,852 21704 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:35:37,401 21704 DEBUG ? odoo.tools._vendor.sessions: Could not load session from disk. Use empty session. 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\tools\_vendor\sessions.py", line 216, in get
+    f = open(self.get_session_filename(sid), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\sessions\\dc\\dcbb38d47e7cbeb585ae83dac6e90618b4b5bcdc'
+2026-07-12 10:35:37,477 21704 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:35:37] "GET /web HTTP/1.1" 303 - 2 0.005 0.070
+2026-07-12 10:35:39,523 21704 DEBUG ? odoo.tools._vendor.sessions: Could not load session from disk. Use empty session. 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\tools\_vendor\sessions.py", line 216, in get
+    f = open(self.get_session_filename(sid), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\sessions\\dc\\dcbb38d47e7cbeb585ae83dac6e90618b4b5bcdc'
+2026-07-12 10:35:39,688 21704 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:35:39] "GET /web/login HTTP/1.1" 200 - 5 0.011 0.154
+2026-07-12 10:35:42,304 21704 INFO transitops odoo.addons.base.models.res_users: Login successful for db:transitops login:admin from 127.0.0.1 
+2026-07-12 10:35:42,315 21704 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:35:42] "POST /api/v1/auth/login HTTP/1.1" 200 - 15 0.010 0.559
+2026-07-12 10:35:44,376 21704 ERROR transitops odoo.addons.transitops_core.controllers.api: Create vehicle error 
+Traceback (most recent call last):
+  File "c:\users\lenovo\onedrive\desktop\transitops\backend\transitops_core\controllers\api.py", line 152, in create_vehicle
+    if request.httprequest.method == 'OPTIONS' or not request.httprequest.data:
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2026-07-12 10:35:44,379 21704 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:35:44] "OPTIONS /api/v1/vehicles HTTP/1.1" 500 - 1 0.000 0.005
+2026-07-12 10:36:21,456 21704 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:36:21,458 21704 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:36:37,872 21704 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:36:37,873 21704 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:36:41,763 21704 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:36:41] "GET / HTTP/1.1" 303 - 2 0.005 0.141
+2026-07-12 10:36:43,810 21704 DEBUG ? odoo.tools._vendor.sessions: Could not load session from disk. Use empty session. 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\tools\_vendor\sessions.py", line 216, in get
+    f = open(self.get_session_filename(sid), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\sessions\\84\\8454a6f06f9d94e8e27cca1d344e7bc93838f9fd'
+2026-07-12 10:36:43,887 21704 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:36:43] "GET /web HTTP/1.1" 303 - 2 0.006 0.071
+2026-07-12 10:36:45,957 21704 DEBUG ? odoo.tools._vendor.sessions: Could not load session from disk. Use empty session. 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\tools\_vendor\sessions.py", line 216, in get
+    f = open(self.get_session_filename(sid), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\sessions\\84\\8454a6f06f9d94e8e27cca1d344e7bc93838f9fd'
+2026-07-12 10:36:46,124 21704 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:36:46] "GET /web/login HTTP/1.1" 200 - 5 0.010 0.158
+2026-07-12 10:36:48,811 21704 INFO transitops odoo.addons.base.models.res_users: Login successful for db:transitops login:admin from 127.0.0.1 
+2026-07-12 10:36:48,822 21704 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:36:48] "POST /api/v1/auth/login HTTP/1.1" 200 - 15 0.010 0.640
+2026-07-12 10:36:50,883 21704 ERROR transitops odoo.addons.transitops_core.controllers.api: Create vehicle error 
+Traceback (most recent call last):
+  File "c:\users\lenovo\onedrive\desktop\transitops\backend\transitops_core\controllers\api.py", line 152, in create_vehicle
+    if request.httprequest.method == 'OPTIONS' or not request.httprequest.data:
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2026-07-12 10:36:50,884 21704 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:36:50] "OPTIONS /api/v1/vehicles HTTP/1.1" 500 - 1 0.000 0.003
+2026-07-12 10:37:21,473 21704 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:37:21,474 21704 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:37:38,884 21704 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:37:38,885 21704 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:38:06,085 16120 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.request:INFO" 
+2026-07-12 10:38:06,085 16120 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.response:INFO" 
+2026-07-12 10:38:06,085 16120 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2026-07-12 10:38:06,085 16120 DEBUG ? odoo.netsvc: logger level set: "odoo:DEBUG" 
+2026-07-12 10:38:06,085 16120 DEBUG ? odoo.netsvc: logger level set: "odoo.sql_db:INFO" 
+2026-07-12 10:38:06,085 16120 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2026-07-12 10:38:06,086 16120 INFO ? odoo: Odoo version 17.0 
+2026-07-12 10:38:06,086 16120 INFO ? odoo: Using configuration file at C:\Users\lenovo\OneDrive\Desktop\TransitOps\odoo.conf 
+2026-07-12 10:38:06,086 16120 INFO ? odoo: addons paths: ['C:\\Users\\lenovo\\OneDrive\\Desktop\\TransitOps\\.venv\\Lib\\site-packages\\odoo\\addons', 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\addons\\17.0', 'c:\\temp\\odoo17\\addons', 'c:\\users\\lenovo\\onedrive\\desktop\\transitops\\backend', 'c:\\users\\lenovo\\onedrive\\desktop\\transitops\\.venv\\lib\\site-packages\\odoo\\addons'] 
+2026-07-12 10:38:06,086 16120 INFO ? odoo: database: odoo@localhost:5432 
+2026-07-12 10:38:06,221 16120 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2026-07-12 10:38:06,473 16120 DEBUG ? odoo.service.server: Setting signal handlers 
+2026-07-12 10:38:06,474 16120 DEBUG ? odoo.service.server: cron0 started! 
+2026-07-12 10:38:06,475 16120 DEBUG ? odoo.service.server: cron1 started! 
+2026-07-12 10:38:06,491 16120 INFO ? odoo.service.server: HTTP service (werkzeug) running on varun:8069 
+2026-07-12 10:39:06,555 16120 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:39:07,625 16120 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:40:06,047 10824 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.request:INFO" 
+2026-07-12 10:40:06,048 10824 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.response:INFO" 
+2026-07-12 10:40:06,048 10824 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2026-07-12 10:40:06,048 10824 DEBUG ? odoo.netsvc: logger level set: "odoo:DEBUG" 
+2026-07-12 10:40:06,048 10824 DEBUG ? odoo.netsvc: logger level set: "odoo.sql_db:INFO" 
+2026-07-12 10:40:06,048 10824 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2026-07-12 10:40:06,048 10824 INFO ? odoo: Odoo version 17.0 
+2026-07-12 10:40:06,049 10824 INFO ? odoo: Using configuration file at C:\Users\lenovo\OneDrive\Desktop\TransitOps\odoo.conf 
+2026-07-12 10:40:06,049 10824 INFO ? odoo: addons paths: ['C:\\Users\\lenovo\\OneDrive\\Desktop\\TransitOps\\.venv\\Lib\\site-packages\\odoo\\addons', 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\addons\\17.0', 'c:\\temp\\odoo17\\addons', 'c:\\users\\lenovo\\onedrive\\desktop\\transitops\\backend', 'c:\\users\\lenovo\\onedrive\\desktop\\transitops\\.venv\\lib\\site-packages\\odoo\\addons'] 
+2026-07-12 10:40:06,049 10824 INFO ? odoo: database: odoo@localhost:5432 
+2026-07-12 10:40:06,161 10824 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2026-07-12 10:40:06,452 10824 DEBUG ? odoo.service.server: Setting signal handlers 
+2026-07-12 10:40:06,454 10824 DEBUG ? odoo.service.server: cron0 started! 
+2026-07-12 10:40:06,456 10824 DEBUG ? odoo.service.server: cron1 started! 
+2026-07-12 10:40:06,471 10824 INFO ? odoo.service.server: HTTP service (werkzeug) running on varun:8069 
+2026-07-12 10:41:06,636 10824 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:41:07,701 10824 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:42:06,643 10824 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:42:08,719 10824 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:43:06,643 10824 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:43:09,740 10824 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:44:06,652 10824 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:44:10,760 10824 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:45:05,885 10824 DEBUG ? odoo.http: HTTP sessions stored in: c:\users\lenovo\appdata\local\openerp s.a\odoo\sessions 
+2026-07-12 10:45:06,055 10824 DEBUG ? odoo.modules.registry: Multiprocess load registry signaling: [Registry: 1] [Cache default: 1] [Cache assets: 1] [Cache templates: 1] [Cache routing: 1] 
+2026-07-12 10:45:06,060 10824 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-07-12 10:45:06,060 10824 DEBUG ? odoo.modules.loading: Loading module base (1/1) 
+2026-07-12 10:45:06,067 10824 DEBUG ? odoo.modules.loading: Module base loaded in 0.01s, 0 queries 
+2026-07-12 10:45:06,067 10824 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-07-12 10:45:06,100 10824 DEBUG ? odoo.modules.loading: Updating graph with 23 more modules 
+2026-07-12 10:45:06,100 10824 INFO ? odoo.modules.loading: loading 24 modules... 
+2026-07-12 10:45:06,100 10824 DEBUG ? odoo.modules.loading: Loading module web (2/24) 
+2026-07-12 10:45:06,102 10824 DEBUG ? odoo.modules.loading: Module web loaded in 0.00s, 0 queries 
+2026-07-12 10:45:06,102 10824 DEBUG ? odoo.modules.loading: Loading module auth_totp (3/24) 
+2026-07-12 10:45:06,143 10824 DEBUG ? odoo.modules.loading: Module auth_totp loaded in 0.04s, 0 queries 
+2026-07-12 10:45:06,143 10824 DEBUG ? odoo.modules.loading: Loading module base_import (4/24) 
+2026-07-12 10:45:06,153 10824 DEBUG ? odoo.modules.loading: Module base_import loaded in 0.01s, 0 queries 
+2026-07-12 10:45:06,153 10824 DEBUG ? odoo.modules.loading: Loading module base_import_module (5/24) 
+2026-07-12 10:45:06,162 10824 DEBUG ? odoo.modules.loading: Module base_import_module loaded in 0.01s, 0 queries 
+2026-07-12 10:45:06,163 10824 DEBUG ? odoo.modules.loading: Loading module base_setup (6/24) 
+2026-07-12 10:45:06,169 10824 DEBUG ? odoo.modules.loading: Module base_setup loaded in 0.01s, 0 queries 
+2026-07-12 10:45:06,170 10824 DEBUG ? odoo.modules.loading: Loading module bus (7/24) 
+2026-07-12 10:45:06,191 10824 DEBUG ? odoo.modules.loading: Module bus loaded in 0.02s, 0 queries 
+2026-07-12 10:45:06,191 10824 DEBUG ? odoo.modules.loading: Loading module web_tour (8/24) 
+2026-07-12 10:45:06,195 10824 DEBUG ? odoo.modules.loading: Module web_tour loaded in 0.00s, 0 queries 
+2026-07-12 10:45:06,195 10824 DEBUG ? odoo.modules.loading: Loading module iap (9/24) 
+2026-07-12 10:45:06,203 10824 DEBUG ? odoo.modules.loading: Module iap loaded in 0.01s, 0 queries 
+2026-07-12 10:45:06,203 10824 DEBUG ? odoo.modules.loading: Loading module mail (10/24) 
+2026-07-12 10:45:06,369 10824 DEBUG ? odoo.modules.loading: Module mail loaded in 0.17s, 0 queries 
+2026-07-12 10:45:06,369 10824 DEBUG ? odoo.modules.loading: Loading module web_editor (11/24) 
+2026-07-12 10:45:06,395 10824 DEBUG ? odoo.modules.loading: Module web_editor loaded in 0.03s, 0 queries 
+2026-07-12 10:45:06,395 10824 DEBUG ? odoo.modules.loading: Loading module auth_signup (12/24) 
+2026-07-12 10:45:06,405 10824 DEBUG ? odoo.modules.loading: Module auth_signup loaded in 0.01s, 0 queries 
+2026-07-12 10:45:06,406 10824 DEBUG ? odoo.modules.loading: Loading module auth_totp_mail (13/24) 
+2026-07-12 10:45:06,411 10824 DEBUG ? odoo.modules.loading: Module auth_totp_mail loaded in 0.01s, 0 queries 
+2026-07-12 10:45:06,411 10824 DEBUG ? odoo.modules.loading: Loading module base_install_request (14/24) 
+2026-07-12 10:45:06,419 10824 DEBUG ? odoo.modules.loading: Module base_install_request loaded in 0.01s, 0 queries 
+2026-07-12 10:45:06,419 10824 DEBUG ? odoo.modules.loading: Loading module google_gmail (15/24) 
+2026-07-12 10:45:06,427 10824 DEBUG ? odoo.modules.loading: Module google_gmail loaded in 0.01s, 0 queries 
+2026-07-12 10:45:06,428 10824 DEBUG ? odoo.modules.loading: Loading module iap_mail (16/24) 
+2026-07-12 10:45:06,431 10824 DEBUG ? odoo.modules.loading: Module iap_mail loaded in 0.00s, 0 queries 
+2026-07-12 10:45:06,431 10824 DEBUG ? odoo.modules.loading: Loading module mail_bot (17/24) 
+2026-07-12 10:45:06,437 10824 DEBUG ? odoo.modules.loading: Module mail_bot loaded in 0.01s, 0 queries 
+2026-07-12 10:45:06,437 10824 DEBUG ? odoo.modules.loading: Loading module phone_validation (18/24) 
+2026-07-12 10:45:06,457 10824 DEBUG ? odoo.modules.loading: Module phone_validation loaded in 0.02s, 0 queries 
+2026-07-12 10:45:06,457 10824 DEBUG ? odoo.modules.loading: Loading module privacy_lookup (19/24) 
+2026-07-12 10:45:06,473 10824 DEBUG ? odoo.modules.loading: Module privacy_lookup loaded in 0.02s, 0 queries 
+2026-07-12 10:45:06,474 10824 DEBUG ? odoo.modules.loading: Loading module transitops_core (20/24) 
+2026-07-12 10:45:06,524 10824 DEBUG ? odoo.modules.loading: Module transitops_core loaded in 0.05s, 0 queries 
+2026-07-12 10:45:06,524 10824 DEBUG ? odoo.modules.loading: Loading module web_unsplash (21/24) 
+2026-07-12 10:45:06,536 10824 DEBUG ? odoo.modules.loading: Module web_unsplash loaded in 0.01s, 0 queries 
+2026-07-12 10:45:06,536 10824 DEBUG ? odoo.modules.loading: Loading module partner_autocomplete (22/24) 
+2026-07-12 10:45:06,559 10824 DEBUG ? odoo.modules.loading: Module partner_autocomplete loaded in 0.02s, 0 queries 
+2026-07-12 10:45:06,559 10824 DEBUG ? odoo.modules.loading: Loading module sms (23/24) 
+2026-07-12 10:45:06,601 10824 DEBUG ? odoo.modules.loading: Module sms loaded in 0.04s, 0 queries 
+2026-07-12 10:45:06,601 10824 DEBUG ? odoo.modules.loading: Loading module snailmail (24/24) 
+2026-07-12 10:45:06,622 10824 DEBUG ? odoo.modules.loading: Module snailmail loaded in 0.02s, 0 queries 
+2026-07-12 10:45:06,623 10824 INFO ? odoo.modules.loading: 24 modules loaded in 0.52s, 0 queries (+0 extra) 
+2026-07-12 10:45:06,690 10824 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:45:06,707 10824 INFO ? odoo.modules.loading: Modules loaded. 
+2026-07-12 10:45:06,714 10824 INFO ? odoo.modules.registry: Registry loaded in 0.751s 
+2026-07-12 10:45:06,716 10824 INFO transitops odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-07-12 10:45:06,798 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:45:06] "GET / HTTP/1.1" 303 - 21 0.038 0.876
+2026-07-12 10:45:06,803 10824 DEBUG ? odoo.tools._vendor.sessions: Could not load session from disk. Use empty session. 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\tools\_vendor\sessions.py", line 216, in get
+    f = open(self.get_session_filename(sid), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\sessions\\c1\\c18bdde94f3c94d8a0dc21386c97c1473f49916a'
+2026-07-12 10:45:06,874 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:45:06] "GET /web HTTP/1.1" 303 - 2 0.004 0.067
+2026-07-12 10:45:06,879 10824 DEBUG ? odoo.tools._vendor.sessions: Could not load session from disk. Use empty session. 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\tools\_vendor\sessions.py", line 216, in get
+    f = open(self.get_session_filename(sid), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\sessions\\c1\\c18bdde94f3c94d8a0dc21386c97c1473f49916a'
+2026-07-12 10:45:07,462 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:45:07] "GET /web/login HTTP/1.1" 200 - 55 0.050 0.533
+2026-07-12 10:45:07,795 10824 DEBUG ? odoo.tools._vendor.sessions: Could not load session from disk. Use empty session. 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\tools\_vendor\sessions.py", line 216, in get
+    f = open(self.get_session_filename(sid), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\sessions\\c1\\c18bdde94f3c94d8a0dc21386c97c1473f49916a'
+2026-07-12 10:45:07,796 10824 DEBUG ? odoo.tools._vendor.sessions: Could not load session from disk. Use empty session. 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\tools\_vendor\sessions.py", line 216, in get
+    f = open(self.get_session_filename(sid), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\sessions\\c1\\c18bdde94f3c94d8a0dc21386c97c1473f49916a'
+2026-07-12 10:45:07,797 10824 DEBUG ? odoo.tools._vendor.sessions: Could not load session from disk. Use empty session. 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\tools\_vendor\sessions.py", line 216, in get
+    f = open(self.get_session_filename(sid), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\sessions\\c1\\c18bdde94f3c94d8a0dc21386c97c1473f49916a'
+2026-07-12 10:45:08,156 10824 DEBUG ? odoo.modules.module: module __init__.py: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2026-07-12 10:45:08,158 10824 DEBUG ? odoo.modules.module: module __pycache__: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2026-07-12 10:45:08,319 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:45:08] "GET /web/binary/company_logo HTTP/1.1" 200 - 3 0.023 0.499
+2026-07-12 10:45:13,055 10824 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:45:13,062 10824 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:45:13,121 10824 INFO transitops odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/fd23cd3/web.assets_frontend.min.css (id:269) 
+2026-07-12 10:45:13,126 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:45:13] "GET /web/assets/fd23cd3/web.assets_frontend.min.css HTTP/1.1" 200 - 13 0.033 5.298
+2026-07-12 10:45:13,137 10824 DEBUG ? odoo.tools._vendor.sessions: Could not load session from disk. Use empty session. 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\tools\_vendor\sessions.py", line 216, in get
+    f = open(self.get_session_filename(sid), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\sessions\\c1\\c18bdde94f3c94d8a0dc21386c97c1473f49916a'
+2026-07-12 10:45:13,344 10824 INFO transitops odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/8983625/web.assets_frontend_minimal.min.js (id:270) 
+2026-07-12 10:45:13,347 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:45:13] "GET /web/assets/8983625/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 10 0.009 0.202
+2026-07-12 10:45:14,031 10824 DEBUG ? odoo.modules.module: module .pytest_cache: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2026-07-12 10:45:14,036 10824 INFO ? werkzeug: 127.0.0.1 - - [12/Jul/2026 10:45:14] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 1 0.006 6.235
+2026-07-12 10:45:14,349 10824 DEBUG ? odoo.tools._vendor.sessions: Could not load session from disk. Use empty session. 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\tools\_vendor\sessions.py", line 216, in get
+    f = open(self.get_session_filename(sid), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\sessions\\c1\\c18bdde94f3c94d8a0dc21386c97c1473f49916a'
+2026-07-12 10:45:14,351 10824 DEBUG ? odoo.tools._vendor.sessions: Could not load session from disk. Use empty session. 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\tools\_vendor\sessions.py", line 216, in get
+    f = open(self.get_session_filename(sid), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\sessions\\c1\\c18bdde94f3c94d8a0dc21386c97c1473f49916a'
+2026-07-12 10:45:14,480 10824 INFO ? werkzeug: 127.0.0.1 - - [12/Jul/2026 10:45:14] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 1 0.004 0.127
+2026-07-12 10:45:15,174 10824 INFO transitops odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/d1d5a14/web.assets_frontend_lazy.min.js (id:271) 
+2026-07-12 10:45:15,178 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:45:15] "GET /web/assets/d1d5a14/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 10 0.008 0.820
+2026-07-12 10:45:15,252 10824 DEBUG ? odoo.tools._vendor.sessions: Could not load session from disk. Use empty session. 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\tools\_vendor\sessions.py", line 216, in get
+    f = open(self.get_session_filename(sid), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\sessions\\c1\\c18bdde94f3c94d8a0dc21386c97c1473f49916a'
+2026-07-12 10:45:15,363 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:45:15] "GET /web/webclient/translations/1783853115250 HTTP/1.1" 200 - 5 0.005 0.106
+2026-07-12 10:45:28,622 10824 DEBUG ? odoo.tools._vendor.sessions: Could not load session from disk. Use empty session. 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\tools\_vendor\sessions.py", line 216, in get
+    f = open(self.get_session_filename(sid), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\sessions\\c1\\c18bdde94f3c94d8a0dc21386c97c1473f49916a'
+2026-07-12 10:45:28,808 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:45:28] "GET /web/signup HTTP/1.1" 200 - 12 0.011 0.176
+2026-07-12 10:45:28,847 10824 DEBUG ? odoo.tools._vendor.sessions: Could not load session from disk. Use empty session. 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\tools\_vendor\sessions.py", line 216, in get
+    f = open(self.get_session_filename(sid), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\sessions\\c1\\c18bdde94f3c94d8a0dc21386c97c1473f49916a'
+2026-07-12 10:45:28,929 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:45:28] "GET /web/binary/company_logo HTTP/1.1" 304 - 3 0.010 0.072
+2026-07-12 10:45:28,969 10824 DEBUG ? odoo.tools._vendor.sessions: Could not load session from disk. Use empty session. 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\tools\_vendor\sessions.py", line 216, in get
+    f = open(self.get_session_filename(sid), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\sessions\\c1\\c18bdde94f3c94d8a0dc21386c97c1473f49916a'
+2026-07-12 10:45:29,048 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:45:29] "GET /web/webclient/translations/1783853128966 HTTP/1.1" 200 - 4 0.007 0.074
+2026-07-12 10:46:06,709 10824 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:46:06,710 10824 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:46:14,085 10824 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:46:14,087 10824 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:46:29,346 10824 DEBUG ? odoo.tools._vendor.sessions: Could not load session from disk. Use empty session. 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\tools\_vendor\sessions.py", line 216, in get
+    f = open(self.get_session_filename(sid), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\sessions\\c1\\c18bdde94f3c94d8a0dc21386c97c1473f49916a'
+2026-07-12 10:46:29,680 10824 DEBUG transitops odoo.tools.translate: no translation language detected, skipping translation for "'%s created'"  
+2026-07-12 10:46:29,707 10824 DEBUG transitops odoo.modules.registry: Invalidating default model caches from write C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\addons\base\models\res_users.py:766 
+2026-07-12 10:46:29,728 10824 DEBUG transitops odoo.modules.registry: Invalidating default model caches from call_cache_clearing_methods C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\addons\base\models\ir_model.py:2108 
+2026-07-12 10:46:29,728 10824 DEBUG transitops odoo.modules.registry: Invalidating default model caches from write C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\addons\base\models\res_users.py:766 
+2026-07-12 10:46:29,739 10824 DEBUG transitops odoo.modules.registry: Invalidating default model caches from call_cache_clearing_methods C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\addons\base\models\ir_model.py:2108 
+2026-07-12 10:46:29,739 10824 DEBUG transitops odoo.modules.registry: Invalidating default model caches from write C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\addons\base\models\res_users.py:766 
+2026-07-12 10:46:30,550 10824 DEBUG transitops odoo.tools.translate: no translation language detected, skipping translation for "'Portal Access Granted'"  
+2026-07-12 10:46:31,361 10824 DEBUG transitops odoo.modules.registry: Invalidating default model caches from write C:\Users\lenovo\OneDrive\Desktop\TransitOps\.venv\Lib\site-packages\odoo\addons\base\models\res_users.py:766 
+2026-07-12 10:46:31,377 10824 INFO transitops odoo.addons.base.models.res_users: Login successful for db:transitops login:varun30012008@gmail.com from 127.0.0.1 
+2026-07-12 10:46:36,568 10824 INFO transitops odoo.addons.base.models.res_users: Login successful for db:transitops login:varun30012008@gmail.com from 127.0.0.1 
+2026-07-12 10:46:36,582 10824 INFO transitops odoo.modules.registry: Caches invalidated, signaling through the database: ['default'] 
+2026-07-12 10:46:36,584 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:46:36] "POST /web/signup HTTP/1.1" 303 - 202 0.195 7.043
+2026-07-12 10:46:36,648 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:46:36] "GET /web/login_successful?account_created=True HTTP/1.1" 200 - 27 0.014 0.046
+2026-07-12 10:46:36,691 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:46:36] "GET /web/binary/company_logo HTTP/1.1" 304 - 2 0.002 0.006
+2026-07-12 10:46:37,045 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:46:37] "GET /web/webclient/translations/1783853196720 HTTP/1.1" 200 - 2 0.001 0.003
+2026-07-12 10:46:45,461 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:46:45] "GET /web/login HTTP/1.1" 200 - 7 0.008 0.099
+2026-07-12 10:46:45,674 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:46:45] "GET /web/binary/company_logo HTTP/1.1" 304 - 2 0.001 0.003
+2026-07-12 10:46:46,017 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:46:46] "GET /web/webclient/translations/1783853205701 HTTP/1.1" 200 - 2 0.001 0.004
+2026-07-12 10:46:48,789 10824 INFO transitops odoo.addons.base.models.res_users: Login successful for db:transitops login:varun30012008@gmail.com from 127.0.0.1 
+2026-07-12 10:46:48,799 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:46:48] "POST /web/login HTTP/1.1" 303 - 18 0.012 0.811
+2026-07-12 10:46:48,810 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:46:48] "GET /web/login_successful HTTP/1.1" 200 - 2 0.001 0.006
+2026-07-12 10:46:49,148 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:46:49] "GET /web/binary/company_logo HTTP/1.1" 304 - 2 0.001 0.003
+2026-07-12 10:46:49,410 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:46:49] "GET /web/webclient/translations/1783853209173 HTTP/1.1" 200 - 2 0.001 0.004
+2026-07-12 10:46:51,543 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:46:51] "GET /web/session/logout HTTP/1.1" 303 - 1 0.001 0.010
+2026-07-12 10:46:51,848 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:46:51] "GET /web HTTP/1.1" 303 - 1 0.000 0.002
+2026-07-12 10:46:52,237 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:46:52] "GET /web/login HTTP/1.1" 200 - 5 0.007 0.073
+2026-07-12 10:46:52,428 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:46:52] "GET /web/binary/company_logo HTTP/1.1" 304 - 2 0.001 0.004
+2026-07-12 10:46:52,585 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:46:52] "GET /web/webclient/translations/1783853212452 HTTP/1.1" 200 - 5 0.003 0.004
+2026-07-12 10:46:55,987 10824 INFO transitops odoo.addons.base.models.res_users: Login successful for db:transitops login:varun30012008@gmail.com from 127.0.0.1 
+2026-07-12 10:46:55,999 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:46:55] "POST /web/login HTTP/1.1" 303 - 19 0.013 0.915
+2026-07-12 10:46:56,011 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:46:56] "GET /web/login_successful HTTP/1.1" 200 - 2 0.002 0.006
+2026-07-12 10:46:56,353 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:46:56] "GET /web/binary/company_logo HTTP/1.1" 304 - 2 0.001 0.003
+2026-07-12 10:46:56,617 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:46:56] "GET /web/webclient/translations/1783853216381 HTTP/1.1" 200 - 2 0.001 0.004
+2026-07-12 10:47:00,299 10824 INFO transitops odoo.sql_db: ConnectionPool(used=2/count=2/max=64): Closed 3 connections to 'user=odoo password=xxx dbname=transitops host=localhost port=5432 application_name=odoo-10824 sslmode=prefer' 
+2026-07-12 10:47:00,372 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:47:00] "GET /web/database/manager HTTP/1.1" 200 - 4 0.005 0.961
+2026-07-12 10:47:00,405 10824 INFO ? werkzeug: 127.0.0.1 - - [12/Jul/2026 10:47:00] "GET /web/static/src/libs/fontawesome/css/font-awesome.css HTTP/1.1" 200 - 0 0.000 0.002
+2026-07-12 10:47:00,713 10824 INFO ? werkzeug: 127.0.0.1 - - [12/Jul/2026 10:47:00] "GET /web/static/lib/bootstrap/js/dist/dom/event-handler.js HTTP/1.1" 200 - 0 0.000 0.005
+2026-07-12 10:47:00,714 10824 INFO ? werkzeug: 127.0.0.1 - - [12/Jul/2026 10:47:00] "GET /web/static/lib/bootstrap/js/dist/dom/data.js HTTP/1.1" 200 - 0 0.000 0.007
+2026-07-12 10:47:00,716 10824 INFO ? werkzeug: 127.0.0.1 - - [12/Jul/2026 10:47:00] "GET /web/static/lib/bootstrap/js/dist/dom/manipulator.js HTTP/1.1" 200 - 0 0.000 0.007
+2026-07-12 10:47:00,716 10824 INFO ? werkzeug: 127.0.0.1 - - [12/Jul/2026 10:47:00] "GET /web/static/lib/bootstrap/js/dist/dom/selector-engine.js HTTP/1.1" 200 - 0 0.000 0.006
+2026-07-12 10:47:00,719 10824 INFO ? werkzeug: 127.0.0.1 - - [12/Jul/2026 10:47:00] "GET /web/static/lib/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 - 0 0.000 0.012
+2026-07-12 10:47:00,723 10824 INFO ? werkzeug: 127.0.0.1 - - [12/Jul/2026 10:47:00] "GET /web/static/lib/bootstrap/js/dist/base-component.js HTTP/1.1" 200 - 0 0.000 0.006
+2026-07-12 10:47:01,022 10824 INFO ? werkzeug: 127.0.0.1 - - [12/Jul/2026 10:47:01] "GET /web/static/lib/bootstrap/js/dist/modal.js HTTP/1.1" 200 - 0 0.000 0.003
+2026-07-12 10:47:01,026 10824 INFO ? werkzeug: 127.0.0.1 - - [12/Jul/2026 10:47:01] "GET /web/static/src/public/database_manager.js HTTP/1.1" 200 - 0 0.000 0.007
+2026-07-12 10:47:01,028 10824 INFO ? werkzeug: 127.0.0.1 - - [12/Jul/2026 10:47:01] "GET /web/static/img/logo2.png HTTP/1.1" 200 - 0 0.000 0.005
+2026-07-12 10:47:06,718 10824 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:47:06,795 10824 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:47:06,837 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:47:06] "GET /web?db=transitops HTTP/1.1" 303 - 2 0.004 0.004
+2026-07-12 10:47:07,067 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:47:07] "GET /web/login_successful HTTP/1.1" 200 - 2 0.001 0.005
+2026-07-12 10:47:07,182 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:47:07] "GET /web/binary/company_logo HTTP/1.1" 304 - 2 0.006 0.075
+2026-07-12 10:47:07,520 10824 INFO transitops werkzeug: 127.0.0.1 - - [12/Jul/2026 10:47:07] "GET /web/webclient/translations/1783853227205 HTTP/1.1" 200 - 2 0.003 0.003
+2026-07-12 10:47:15,102 10824 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:47:15,104 10824 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:48:06,796 10824 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:48:06,798 10824 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:48:16,119 10824 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:48:16,120 10824 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:49:06,799 10824 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:49:06,801 10824 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:49:17,140 10824 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:49:17,141 10824 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:50:06,814 10824 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:50:06,816 10824 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:50:18,162 10824 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:50:18,164 10824 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:51:06,823 10824 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:51:06,825 10824 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:51:19,187 10824 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:51:19,189 10824 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:52:06,829 10824 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:52:06,831 10824 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:52:20,200 10824 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:52:20,202 10824 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:53:06,837 10824 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:53:06,838 10824 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:53:21,223 10824 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:53:21,224 10824 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:54:06,840 10824 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:54:06,841 10824 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:54:22,242 10824 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:54:22,244 10824 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:55:06,845 10824 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:55:06,848 10824 WARNING transitops odoo.addons.base.models.ir_cron: Skipping database transitops because of modules to install/upgrade/remove. 
+2026-07-12 10:55:17,370 43520 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.request:INFO" 
+2026-07-12 10:55:17,370 43520 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.response:INFO" 
+2026-07-12 10:55:17,370 43520 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2026-07-12 10:55:17,370 43520 DEBUG ? odoo.netsvc: logger level set: "odoo:DEBUG" 
+2026-07-12 10:55:17,370 43520 DEBUG ? odoo.netsvc: logger level set: "odoo.sql_db:INFO" 
+2026-07-12 10:55:17,370 43520 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2026-07-12 10:55:17,371 43520 INFO ? odoo: Odoo version 17.0 
+2026-07-12 10:55:17,371 43520 INFO ? odoo: Using configuration file at C:\Users\lenovo\OneDrive\Desktop\TransitOps\odoo.conf 
+2026-07-12 10:55:17,371 43520 INFO ? odoo: addons paths: ['C:\\Users\\lenovo\\OneDrive\\Desktop\\TransitOps\\.venv\\Lib\\site-packages\\odoo\\addons', 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\addons\\17.0', 'c:\\temp\\odoo17\\addons', 'c:\\users\\lenovo\\onedrive\\desktop\\transitops\\backend', 'c:\\users\\lenovo\\onedrive\\desktop\\transitops\\.venv\\lib\\site-packages\\odoo\\addons'] 
+2026-07-12 10:55:17,372 43520 INFO ? odoo: database: odoo@localhost:5432 
+2026-07-12 10:55:17,503 43520 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2026-07-12 10:55:17,797 43520 DEBUG ? odoo.service.server: Setting signal handlers 
+2026-07-12 10:55:17,799 43520 DEBUG ? odoo.service.server: cron0 started! 
+2026-07-12 10:55:17,802 43520 DEBUG ? odoo.service.server: cron1 started! 
+2026-07-12 10:55:17,811 43520 INFO ? odoo.service.server: HTTP service (werkzeug) running on varun:8069 
+2026-07-12 10:56:17,967 43520 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:56:19,052 43520 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:57:17,968 43520 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:57:20,066 43520 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:58:17,983 43520 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:58:21,088 43520 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 10:59:17,999 43520 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 10:59:22,105 43520 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 11:00:18,014 43520 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 11:00:23,125 43520 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 11:01:18,016 43520 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 11:01:24,148 43520 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2026-07-12 11:01:49,727 46012 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.request:INFO" 
+2026-07-12 11:01:49,728 46012 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.response:INFO" 
+2026-07-12 11:01:49,728 46012 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2026-07-12 11:01:49,728 46012 DEBUG ? odoo.netsvc: logger level set: "odoo:DEBUG" 
+2026-07-12 11:01:49,728 46012 DEBUG ? odoo.netsvc: logger level set: "odoo.sql_db:INFO" 
+2026-07-12 11:01:49,728 46012 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2026-07-12 11:01:49,728 46012 INFO ? odoo: Odoo version 17.0 
+2026-07-12 11:01:49,728 46012 INFO ? odoo: Using configuration file at C:\Users\lenovo\OneDrive\Desktop\TransitOps\odoo.conf 
+2026-07-12 11:01:49,729 46012 INFO ? odoo: addons paths: ['C:\\Users\\lenovo\\OneDrive\\Desktop\\TransitOps\\.venv\\Lib\\site-packages\\odoo\\addons', 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\addons\\17.0', 'c:\\temp\\odoo17\\addons', 'c:\\users\\lenovo\\onedrive\\desktop\\transitops\\backend', 'c:\\users\\lenovo\\onedrive\\desktop\\transitops\\.venv\\lib\\site-packages\\odoo\\addons'] 
+2026-07-12 11:01:49,729 46012 INFO ? odoo: database: odoo@localhost:5432 
+2026-07-12 11:01:49,868 46012 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2026-07-12 11:01:50,161 46012 DEBUG ? odoo.service.server: Setting signal handlers 
+2026-07-12 11:01:50,163 46012 DEBUG ? odoo.service.server: cron0 started! 
+2026-07-12 11:01:50,166 46012 DEBUG ? odoo.service.server: cron1 started! 
+2026-07-12 11:01:50,173 46012 INFO ? odoo.service.server: HTTP service (werkzeug) running on varun:8069 
+2026-07-12 11:02:50,323 46012 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2026-07-12 11:02:51,402 46012 DEBUG ? odoo.service.server: cron1 polling for jobs 

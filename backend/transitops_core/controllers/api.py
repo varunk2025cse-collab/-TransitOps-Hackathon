@@ -9,6 +9,20 @@ from odoo.exceptions import ValidationError, AccessError
 _logger = logging.getLogger(__name__)
 
 
+ALLOWED_ORIGINS = ['http://localhost:5173', 'http://localhost:4173']
+
+
+def _get_cors_headers():
+    origin = request.httprequest.headers.get('Origin')
+    allowed_origin = origin if origin in ALLOWED_ORIGINS else 'null'
+    return {
+        'Access-Control-Allow-Origin': allowed_origin,
+        'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+        'Access-Control-Allow-Headers': 'Content-Type, Authorization, X-Requested-With',
+        'Access-Control-Allow-Credentials': 'true',
+    }
+
+
 def _json_response(data, status=200):
     """Utility: return a standard JSON response with CORS headers."""
     body = json.dumps(data, default=str)
@@ -16,16 +30,23 @@ def _json_response(data, status=200):
         body,
         status=status,
         content_type='application/json',
-        headers={
-            'Access-Control-Allow-Origin': '*',
-            'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
-            'Access-Control-Allow-Headers': 'Content-Type, Authorization',
-        },
+        headers=_get_cors_headers(),
     )
 
 
 def _error(message, code='VALIDATION_ERROR', status=400):
     return _json_response({'status': 'error', 'code': code, 'message': message}, status)
+
+
+def _cors_options_response():
+    # For preflight requests, reply with a permissive origin '*' to satisfy
+    # dev tooling that expects a wildcard on OPTIONS; actual responses echo origin.
+    headers = _get_cors_headers()
+    headers['Access-Control-Allow-Origin'] = '*'
+    headers['Access-Control-Allow-Methods'] = 'GET, POST, PUT, DELETE, OPTIONS'
+    headers['Access-Control-Allow-Headers'] = 'Content-Type, Authorization, X-Requested-With'
+    headers['Access-Control-Max-Age'] = '86400'
+    return Response(status=204, headers=headers)
 
 
 class TransitOpsAPI(http.Controller):
@@ -36,18 +57,31 @@ class TransitOpsAPI(http.Controller):
     # ═══════════════════════════════════════════════════════════════════
     @http.route(
         '/api/v1/<path:path>',
-        type='http', auth='none', methods=['OPTIONS'], csrf=False,
+        type='http', auth='none', methods=['OPTIONS'], csrf=False, cors='*',
     )
     def cors_preflight(self, path=None, **kw):
-        return Response(
-            status=204,
-            headers={
-                'Access-Control-Allow-Origin': '*',
-                'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
-                'Access-Control-Allow-Headers': 'Content-Type, Authorization',
-                'Access-Control-Max-Age': '86400',
-            },
-        )
+        return _cors_options_response()
+
+    @http.route('/api/v1/auth/login', type='http', auth='none', methods=['OPTIONS'], csrf=False)
+    @http.route('/api/v1/auth/logout', type='http', auth='none', methods=['OPTIONS'], csrf=False)
+    @http.route('/api/v1/auth/me', type='http', auth='none', methods=['OPTIONS'], csrf=False)
+    @http.route('/api/v1/vehicles', type='http', auth='none', methods=['OPTIONS'], csrf=False)
+    @http.route('/api/v1/vehicles/<int:vehicle_id>', type='http', auth='none', methods=['OPTIONS'], csrf=False)
+    @http.route('/api/v1/drivers', type='http', auth='none', methods=['OPTIONS'], csrf=False)
+    @http.route('/api/v1/drivers/<int:driver_id>', type='http', auth='none', methods=['OPTIONS'], csrf=False)
+    @http.route('/api/v1/trips', type='http', auth='none', methods=['OPTIONS'], csrf=False)
+    @http.route('/api/v1/trips/dispatch', type='http', auth='none', methods=['OPTIONS'], csrf=False)
+    @http.route('/api/v1/trips/<int:trip_id>/complete', type='http', auth='none', methods=['OPTIONS'], csrf=False)
+    @http.route('/api/v1/trips/<int:trip_id>/cancel', type='http', auth='none', methods=['OPTIONS'], csrf=False)
+    @http.route('/api/v1/maintenance', type='http', auth='none', methods=['OPTIONS'], csrf=False)
+    @http.route('/api/v1/maintenance/<int:log_id>/close', type='http', auth='none', methods=['OPTIONS'], csrf=False)
+    @http.route('/api/v1/fuel-logs', type='http', auth='none', methods=['OPTIONS'], csrf=False)
+    @http.route('/api/v1/expenses', type='http', auth='none', methods=['OPTIONS'], csrf=False)
+    @http.route('/api/v1/dashboard/kpi', type='http', auth='none', methods=['OPTIONS'], csrf=False)
+    @http.route('/api/v1/dashboard/charts', type='http', auth='none', methods=['OPTIONS'], csrf=False)
+    @http.route('/api/v1/intelligence/fleet-health', type='http', auth='none', methods=['OPTIONS'], csrf=False)
+    def options(self, **kw):
+        return _cors_options_response()
 
     # ═══════════════════════════════════════════════════════════════════
     #  AUTH
@@ -55,6 +89,9 @@ class TransitOpsAPI(http.Controller):
     @http.route('/api/v1/auth/login', type='http', auth='none', methods=['POST'], csrf=False)
     def login(self, **kw):
         try:
+            # Preflight and empty-body guard
+            if request.httprequest.method == 'OPTIONS' or not request.httprequest.data:
+                return _cors_options_response()
             data = json.loads(request.httprequest.data)
             db = data.get('db', request.db)
             login = data.get('login')
@@ -79,8 +116,13 @@ class TransitOpsAPI(http.Controller):
             _logger.exception('Login error')
             return _error(str(e), code='SERVER_ERROR', status=500)
 
-    @http.route('/api/v1/auth/logout', type='http', auth='user', methods=['POST'], csrf=False)
+    @http.route('/api/v1/auth/logout', type='http', auth='none', methods=['POST','OPTIONS'], csrf=False)
     def logout(self, **kw):
+        # Support OPTIONS preflight and manual auth check for POST
+        if request.httprequest.method == 'OPTIONS' or not request.httprequest.data:
+            return _cors_options_response()
+        if not request.session.uid:
+            return _error('Authentication required.', code='AUTH_REQUIRED', status=401)
         request.session.logout()
         return _json_response({'status': 'success', 'message': 'Logged out.'})
 
@@ -115,10 +157,19 @@ class TransitOpsAPI(http.Controller):
             })
         return _json_response({'status': 'success', 'data': data})
 
-    @http.route('/api/v1/vehicles', type='http', auth='user', methods=['POST'], csrf=False)
+    @http.route('/api/v1/vehicles', type='http', auth='none', methods=['POST','OPTIONS'], csrf=False)
     def create_vehicle(self, **kw):
         try:
-            data = json.loads(request.httprequest.data)
+            if request.httprequest.method == 'OPTIONS' or not request.httprequest.data:
+                return _cors_options_response()
+            # Require session for actual POST
+            if not request.session.uid:
+                return _error('Authentication required.', code='AUTH_REQUIRED', status=401)
+            data_bytes = request.httprequest.data
+            # guard against empty body or non-json
+            if not data_bytes:
+                return _cors_options_response()
+            data = json.loads(data_bytes)
             vehicle = request.env['transitops.vehicle'].create({
                 'name': data.get('name'),
                 'registration_number': data.get('registration_number'),
@@ -137,10 +188,17 @@ class TransitOpsAPI(http.Controller):
             _logger.exception('Create vehicle error')
             return _error(str(e), code='SERVER_ERROR', status=500)
 
-    @http.route('/api/v1/vehicles/<int:vehicle_id>', type='http', auth='user', methods=['PUT'], csrf=False)
+    @http.route('/api/v1/vehicles/<int:vehicle_id>', type='http', auth='none', methods=['PUT','OPTIONS'], csrf=False)
     def update_vehicle(self, vehicle_id, **kw):
         try:
-            data = json.loads(request.httprequest.data)
+            if request.httprequest.method == 'OPTIONS' or not request.httprequest.data:
+                return _cors_options_response()
+            if not request.session.uid:
+                return _error('Authentication required.', code='AUTH_REQUIRED', status=401)
+            data_bytes = request.httprequest.data
+            if not data_bytes:
+                return _cors_options_response()
+            data = json.loads(data_bytes)
             vehicle = request.env['transitops.vehicle'].browse(vehicle_id)
             if not vehicle.exists():
                 return _error('Vehicle not found.', code='NOT_FOUND', status=404)
@@ -152,9 +210,13 @@ class TransitOpsAPI(http.Controller):
             _logger.exception('Update vehicle error')
             return _error(str(e), code='SERVER_ERROR', status=500)
 
-    @http.route('/api/v1/vehicles/<int:vehicle_id>', type='http', auth='user', methods=['DELETE'], csrf=False)
+    @http.route('/api/v1/vehicles/<int:vehicle_id>', type='http', auth='none', methods=['DELETE','OPTIONS'], csrf=False)
     def delete_vehicle(self, vehicle_id, **kw):
         try:
+            if request.httprequest.method == 'OPTIONS':
+                return _cors_options_response()
+            if not request.session.uid:
+                return _error('Authentication required.', code='AUTH_REQUIRED', status=401)
             vehicle = request.env['transitops.vehicle'].browse(vehicle_id)
             if not vehicle.exists():
                 return _error('Vehicle not found.', code='NOT_FOUND', status=404)
@@ -186,10 +248,17 @@ class TransitOpsAPI(http.Controller):
             })
         return _json_response({'status': 'success', 'data': data})
 
-    @http.route('/api/v1/drivers', type='http', auth='user', methods=['POST'], csrf=False)
+    @http.route('/api/v1/drivers', type='http', auth='none', methods=['POST','OPTIONS'], csrf=False)
     def create_driver(self, **kw):
         try:
-            data = json.loads(request.httprequest.data)
+            if request.httprequest.method == 'OPTIONS' or not request.httprequest.data:
+                return _cors_options_response()
+            if not request.session.uid:
+                return _error('Authentication required.', code='AUTH_REQUIRED', status=401)
+            data_bytes = request.httprequest.data
+            if not data_bytes:
+                return _cors_options_response()
+            data = json.loads(data_bytes)
             driver = request.env['transitops.driver'].create({
                 'name': data.get('name'),
                 'license_number': data.get('license_number'),
@@ -209,10 +278,17 @@ class TransitOpsAPI(http.Controller):
             _logger.exception('Create driver error')
             return _error(str(e), code='SERVER_ERROR', status=500)
 
-    @http.route('/api/v1/drivers/<int:driver_id>', type='http', auth='user', methods=['PUT'], csrf=False)
+    @http.route('/api/v1/drivers/<int:driver_id>', type='http', auth='none', methods=['PUT','OPTIONS'], csrf=False)
     def update_driver(self, driver_id, **kw):
         try:
-            data = json.loads(request.httprequest.data)
+            if request.httprequest.method == 'OPTIONS' or not request.httprequest.data:
+                return _cors_options_response()
+            if not request.session.uid:
+                return _error('Authentication required.', code='AUTH_REQUIRED', status=401)
+            data_bytes = request.httprequest.data
+            if not data_bytes:
+                return _cors_options_response()
+            data = json.loads(data_bytes)
             driver = request.env['transitops.driver'].browse(driver_id)
             if not driver.exists():
                 return _error('Driver not found.', code='NOT_FOUND', status=404)
@@ -252,10 +328,17 @@ class TransitOpsAPI(http.Controller):
             })
         return _json_response({'status': 'success', 'data': data})
 
-    @http.route('/api/v1/trips/dispatch', type='http', auth='user', methods=['POST'], csrf=False)
+    @http.route('/api/v1/trips/dispatch', type='http', auth='none', methods=['POST','OPTIONS'], csrf=False)
     def dispatch_trip(self, **kw):
         try:
-            data = json.loads(request.httprequest.data)
+            if request.httprequest.method == 'OPTIONS' or not request.httprequest.data:
+                return _cors_options_response()
+            if not request.session.uid:
+                return _error('Authentication required.', code='AUTH_REQUIRED', status=401)
+            data_bytes = request.httprequest.data
+            if not data_bytes:
+                return _cors_options_response()
+            data = json.loads(data_bytes)
             trip = request.env['transitops.trip'].create({
                 'source': data.get('source'),
                 'destination': data.get('destination'),
@@ -278,10 +361,17 @@ class TransitOpsAPI(http.Controller):
             _logger.exception('Dispatch trip error')
             return _error(str(e), code='SERVER_ERROR', status=500)
 
-    @http.route('/api/v1/trips/<int:trip_id>/complete', type='http', auth='user', methods=['POST'], csrf=False)
+    @http.route('/api/v1/trips/<int:trip_id>/complete', type='http', auth='none', methods=['POST','OPTIONS'], csrf=False)
     def complete_trip(self, trip_id, **kw):
         try:
-            data = json.loads(request.httprequest.data)
+            if request.httprequest.method == 'OPTIONS' or not request.httprequest.data:
+                return _cors_options_response()
+            if not request.session.uid:
+                return _error('Authentication required.', code='AUTH_REQUIRED', status=401)
+            data_bytes = request.httprequest.data
+            if not data_bytes:
+                return _cors_options_response()
+            data = json.loads(data_bytes)
             trip = request.env['transitops.trip'].browse(trip_id)
             if not trip.exists():
                 return _error('Trip not found.', code='NOT_FOUND', status=404)
@@ -300,9 +390,13 @@ class TransitOpsAPI(http.Controller):
             _logger.exception('Complete trip error')
             return _error(str(e), code='SERVER_ERROR', status=500)
 
-    @http.route('/api/v1/trips/<int:trip_id>/cancel', type='http', auth='user', methods=['POST'], csrf=False)
+    @http.route('/api/v1/trips/<int:trip_id>/cancel', type='http', auth='none', methods=['POST','OPTIONS'], csrf=False)
     def cancel_trip(self, trip_id, **kw):
         try:
+            if request.httprequest.method == 'OPTIONS':
+                return _cors_options_response()
+            if not request.session.uid:
+                return _error('Authentication required.', code='AUTH_REQUIRED', status=401)
             trip = request.env['transitops.trip'].browse(trip_id)
             if not trip.exists():
                 return _error('Trip not found.', code='NOT_FOUND', status=404)
@@ -338,10 +432,17 @@ class TransitOpsAPI(http.Controller):
             })
         return _json_response({'status': 'success', 'data': data})
 
-    @http.route('/api/v1/maintenance', type='http', auth='user', methods=['POST'], csrf=False)
+    @http.route('/api/v1/maintenance', type='http', auth='none', methods=['POST','OPTIONS'], csrf=False)
     def create_maintenance(self, **kw):
         try:
-            data = json.loads(request.httprequest.data)
+            if request.httprequest.method == 'OPTIONS' or not request.httprequest.data:
+                return _cors_options_response()
+            if not request.session.uid:
+                return _error('Authentication required.', code='AUTH_REQUIRED', status=401)
+            data_bytes = request.httprequest.data
+            if not data_bytes:
+                return _cors_options_response()
+            data = json.loads(data_bytes)
             log = request.env['transitops.maintenance'].create({
                 'vehicle_id': data.get('vehicle_id'),
                 'date': data.get('date'),
@@ -360,9 +461,13 @@ class TransitOpsAPI(http.Controller):
             _logger.exception('Create maintenance error')
             return _error(str(e), code='SERVER_ERROR', status=500)
 
-    @http.route('/api/v1/maintenance/<int:log_id>/close', type='http', auth='user', methods=['POST'], csrf=False)
+    @http.route('/api/v1/maintenance/<int:log_id>/close', type='http', auth='none', methods=['POST','OPTIONS'], csrf=False)
     def close_maintenance(self, log_id, **kw):
         try:
+            if request.httprequest.method == 'OPTIONS':
+                return _cors_options_response()
+            if not request.session.uid:
+                return _error('Authentication required.', code='AUTH_REQUIRED', status=401)
             log = request.env['transitops.maintenance'].browse(log_id)
             if not log.exists():
                 return _error('Maintenance log not found.', code='NOT_FOUND', status=404)
@@ -397,10 +502,17 @@ class TransitOpsAPI(http.Controller):
             })
         return _json_response({'status': 'success', 'data': data})
 
-    @http.route('/api/v1/fuel-logs', type='http', auth='user', methods=['POST'], csrf=False)
+    @http.route('/api/v1/fuel-logs', type='http', auth='none', methods=['POST','OPTIONS'], csrf=False)
     def create_fuel_log(self, **kw):
         try:
-            data = json.loads(request.httprequest.data)
+            if request.httprequest.method == 'OPTIONS' or not request.httprequest.data:
+                return _cors_options_response()
+            if not request.session.uid:
+                return _error('Authentication required.', code='AUTH_REQUIRED', status=401)
+            data_bytes = request.httprequest.data
+            if not data_bytes:
+                return _cors_options_response()
+            data = json.loads(data_bytes)
             log = request.env['transitops.fuel.log'].create({
                 'vehicle_id': data.get('vehicle_id'),
                 'trip_id': data.get('trip_id'),
@@ -438,10 +550,17 @@ class TransitOpsAPI(http.Controller):
             })
         return _json_response({'status': 'success', 'data': data})
 
-    @http.route('/api/v1/expenses', type='http', auth='user', methods=['POST'], csrf=False)
+    @http.route('/api/v1/expenses', type='http', auth='none', methods=['POST','OPTIONS'], csrf=False)
     def create_expense(self, **kw):
         try:
-            data = json.loads(request.httprequest.data)
+            if request.httprequest.method == 'OPTIONS' or not request.httprequest.data:
+                return _cors_options_response()
+            if not request.session.uid:
+                return _error('Authentication required.', code='AUTH_REQUIRED', status=401)
+            data_bytes = request.httprequest.data
+            if not data_bytes:
+                return _cors_options_response()
+            data = json.loads(data_bytes)
             expense = request.env['transitops.expense'].create({
                 'vehicle_id': data.get('vehicle_id'),
                 'trip_id': data.get('trip_id'),
